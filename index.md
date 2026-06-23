@@ -4,63 +4,123 @@ title: Home
 permalink: /
 ---
 
-# Vision and Mission
+<section class="home-hero">
+  <div class="home-inner">
+    <p class="home-eyebrow"><i class="ph ph-flask"></i>&nbsp; VLED Lab &nbsp;·&nbsp; IIT Ropar</p>
+    <h1 class="home-title">Vicharanashala</h1>
+    <p class="home-tagline">An education design lab working at the intersection of pedagogy, technology, and national scale.</p>
+    <div class="hero-stats-row">
+      <div class="hero-stat">
+        <span class="hero-stat-num">~10,000</span>
+        <span class="hero-stat-lbl">Learners on ViBe</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">3,500+</span>
+        <span class="hero-stat-lbl">Faculty Reached</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">8,400+</span>
+        <span class="hero-stat-lbl">Students — Internship</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-num">₹2.15 Cr</span>
+        <span class="hero-stat-lbl">Funding Secured</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-## Vision
-We envision a future where learning is thoughtfully designed and deeply human at its core.  
+<section class="home-section hs-light">
+  <div class="home-inner">
+    <p class="home-label"><i class="ph ph-eye"></i> Vision</p>
+    <h2 class="home-section-h">Learning, deeply human at its core.</h2>
+    <p class="home-section-p">We envision a future where education does not follow a one-size-fits-all model, but adapts to the pace, style, and curiosity of each learner. Technology acts as an enabler — not a distraction — supporting educators and empowering students through intuitive tools and smart systems.</p>
+    <p class="home-section-p">We believe learning is a deeply human act of discovery. Technology doesn't compete with the teacher — it clears the path for them.</p>
+  </div>
+</section>
 
-A world where education does not follow a one-size-fits-all model, but adapts beautifully to the pace, style, and curiosity of each learner.  
+<section class="home-section hs-mid">
+  <div class="home-inner">
+    <p class="home-label"><i class="ph ph-target"></i> The Challenges We Have Chosen</p>
+    <h2 class="home-section-h">Education is foundational to development. We have picked our share of the work.</h2>
+    <p class="home-section-p">Higher education has many unsolved challenges. We do not pretend to address all of them. But three persistent gaps — ones we have studied, researched, and built around — define the scope of our work.</p>
+    <div class="challenges-grid">
+      <div class="challenge-card">
+        <i class="ph ph-chalkboard-teacher challenge-icon"></i>
+        <div class="challenge-title">The Teacher</div>
+        <p class="challenge-text">A good classroom begins with a good teacher. NEP 2020 mandates continuous professional development — but reaching millions of faculty without losing rigour or flexibility is a hard design problem. That is the question we experiment with in our faculty development programs.</p>
+      </div>
+      <div class="challenge-card">
+        <i class="ph ph-monitor-play challenge-icon"></i>
+        <div class="challenge-title">Online Learning</div>
+        <p class="challenge-text">India cannot build enough physical infrastructure to meet demand. Online learning is the obvious answer — but online learning done poorly creates the appearance of access without the reality of learning. How do we design systems that actually work at scale?</p>
+      </div>
+      <div class="challenge-card">
+        <i class="ph ph-briefcase challenge-icon"></i>
+        <div class="challenge-title">Structured Exposure</div>
+        <p class="challenge-text">As degrees become less reliable signals, students need direct exposure — structured internships, mentored research. But access is bottlenecked by networks and coordination capacity. Can we bypass those structural constraints?</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-In this future, technology acts as an enabler—not a distraction—supporting educators and empowering students through intuitive tools, immersive content, and smart systems. We aim to reshape the way knowledge is created, presented, and experienced so that learning becomes more meaningful, more relevant, and more inspiring.  
+<section class="home-section hs-dark">
+  <div class="home-inner">
+    <p class="home-label home-label-inv"><i class="ph ph-wrench"></i> What We Built</p>
+    <h2 class="home-section-h home-section-h-inv">Two tracks. One mandate.</h2>
+    <div class="tracks-grid">
+      <div class="track-card">
+        <h3 class="track-title">National Programs</h3>
+        <p class="track-text">Government-funded faculty development at scale, in partnership with the Ministry of Education and three IITs. GuruSetu and CBPAI reach faculty across India through self-paced, rigorous, pedagogy-first programs.</p>
+        <div class="track-stats">
+          <div class="track-stat"><span class="track-stat-num">3,500+</span><span class="track-stat-lbl">Faculty Reached</span></div>
+          <div class="track-stat"><span class="track-stat-num">600+</span><span class="track-stat-lbl">Certified</span></div>
+        </div>
+        <a href="{{ site.baseurl }}/national_initiative/" class="track-link">Explore Programs →</a>
+      </div>
+      <div class="track-card">
+        <h3 class="track-title">EdTech Products</h3>
+        <p class="track-text">Seven in-house tools built to solve verified classroom problems — each one emerged from a specific research question, not a feature list. From online learning to AI-powered internship management.</p>
+        <div class="track-stats">
+          <div class="track-stat"><span class="track-stat-num">~10,000</span><span class="track-stat-lbl">Learners on ViBe</span></div>
+          <div class="track-stat"><span class="track-stat-num">8,400+</span><span class="track-stat-lbl">Students — Internship</span></div>
+        </div>
+        <a href="{{ site.baseurl }}/products/" class="track-link">Explore Products →</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-Our vision is to build an ecosystem where every learning moment feels purposeful, where concepts come alive through great design, and where every learner—regardless of background—can access a transformative educational journey that helps them grow with confidence and joy.
-
----
-
-## The Challenges We Have Chosen to Work On
-
-Education is not peripheral to development — it is foundational to it. As India works toward becoming a developed nation, the quality, scale, and equity of its education system will determine how much of that potential actually reaches people. We are an education design lab. We have picked our share of this work — not the whole problem, but specific challenges we are genuinely excited to think about, experiment with, and build for.
-
-**The first is the teacher.** A good classroom begins with a good teacher. No matter how far technology evolves, we hold this as a constant: teachers are irreplaceable, and what we actually need are not just teachers but *good* teachers. NEP 2020, and the policy documents before and after it, recognise this — continuous professional development for faculty is not optional, it is mandated. But it is also resource-intensive. How do we create opportunities for professional development that can reach millions of teachers without losing rigour? How do we make that process flexible enough to meet educators where they are, without compromising on the standards that make it meaningful? That is the question we experiment with in our faculty development programs.
-
-**The second is online learning.** India has the second-largest higher education system in the world, and physical infrastructure will always be a constraint. You cannot build enough universities and colleges to keep pace with the demand — and even if you could, access would remain unequal. The obvious alternative is online learning. But online learning done poorly is not a solution — it creates the appearance of access without the reality of learning. The real question is: how do we design online learning systems that work at scale, that hold up against their offline counterparts in terms of outcomes, and that learners can actually complete? That is what our products are built to explore.
-
-**The third is structured learning opportunities.** As degrees become less reliable signals of capability, and as the nature of work shifts faster than curricula can follow, what students need is direct exposure — structured internships, mentored research, contact with how knowledge is actually applied. But the systems that provide this are bottlenecked. They are tied to physical presence, institutional networks, and coordination capacity that most colleges and most research labs simply do not have. Can we find novel ways to bypass these structural bottlenecks — to make high-quality, structured learning experiences available to students regardless of which institution they come from? That is the question Samagama and Summership were built to answer.
-
----
-
-## What We Believe
-We believe learning is a deeply human act of discovery, not a mechanical process of delivery. Every learner is unique, and education should adapt beautifully to the pace of their curiosity and the style of their thought.  
-
-In the future we are building, technology doesn't compete with the teacher; it clears the path for them. We use smart design and intuitive tools to ensure that every learning moment feels purposeful, inclusive, and, above all, joyful.  
-
-We are here to reshape how knowledge is experienced so that it becomes more meaningful and more inspiring for everyone, regardless of their background.
-
----
-
-## How We Work
-
-### Designing with Heart and Science
-We combine the rigors of research with the soul of storytelling. We build learning experiences that are anchored in strong pedagogy but delivered with a creative spark that makes complex ideas feel like old friends.
-
-### Building Bridges, Not Barriers
-Our digital solutions are meant to clarify, not complicate. We use visuals, interactivity, and adaptive pathways to turn "difficult" concepts into accessible journeys for every learner.
-
-### Listening Before Creating
-We don't build in a vacuum. We spend time understanding the real, everyday challenges of educators and students so that our solutions solve actual problems, not just technical gaps.
-
-### Using Tech with Intention
-We are mindful of the tools we introduce. If a technology doesn't directly serve a human learning outcome or strengthen a foundational understanding, it doesn't belong in our design.
-
-### Staying in Motion
-Education is always evolving, and so are we. We are committed to a cycle of constant reflection and reinvention, ensuring that learning remains as dynamic and impactful as the generations that follow us.
-
----
-
-## Where We Stand
-
-Vicharanashala Lab (VLED Lab) operates out of IIT Ropar, with government-funded national programs under the Ministry of Education and a portfolio of seven in-house EdTech products — each built to address a specific, verified gap in the learning process.
-
-**3,500+** faculty reached through national programs · **600+** certified · **~10,000** learners on ViBe · **8,400+** students in structured internships through Summership
-
-[Explore our programs →](/national_initiative/) · [Explore our products →](/products/)
+<section class="home-section hs-light">
+  <div class="home-inner">
+    <p class="home-label"><i class="ph ph-gear"></i> How We Work</p>
+    <h2 class="home-section-h">Research rigour. Human design.</h2>
+    <div class="principles-grid">
+      <div class="principle">
+        <i class="ph ph-book-open principle-icon"></i>
+        <div class="principle-title">Designing with Heart and Science</div>
+        <p class="principle-text">Research rigour combined with the soul of storytelling — anchored in pedagogy, delivered with a creative spark.</p>
+      </div>
+      <div class="principle">
+        <i class="ph ph-bridge principle-icon"></i>
+        <div class="principle-title">Building Bridges, Not Barriers</div>
+        <p class="principle-text">Solutions meant to clarify, not complicate. Visuals, interactivity, and adaptive pathways for every learner.</p>
+      </div>
+      <div class="principle">
+        <i class="ph ph-ear principle-icon"></i>
+        <div class="principle-title">Listening Before Creating</div>
+        <p class="principle-text">We spend time understanding the real challenges of educators and students before we build.</p>
+      </div>
+      <div class="principle">
+        <i class="ph ph-cpu principle-icon"></i>
+        <div class="principle-title">Using Tech with Intention</div>
+        <p class="principle-text">If a technology doesn't directly serve a human learning outcome, it doesn't belong in our design.</p>
+      </div>
+      <div class="principle">
+        <i class="ph ph-arrows-clockwise principle-icon"></i>
+        <div class="principle-title">Staying in Motion</div>
+        <p class="principle-text">Education is always evolving, and so are we. Constant reflection and reinvention, not fixed solutions.</p>
+      </div>
+    </div>
+  </div>
+</section>

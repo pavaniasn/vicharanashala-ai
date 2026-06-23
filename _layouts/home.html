@@ -1,13 +1,21 @@
----
-layout: default
----
-<div class="home">
-  <!-- {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}  </h1>
-  {%- endif -%} -->
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body class="home-body">
 
-  {{ content }}
+    {%- include header.html -%}
 
-  
+    <main class="home-main">
+      {{ content }}
+    </main>
 
-</div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-87W6B0JP70"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-87W6B0JP70');
+    </script>
+
+  </body>
+</html>
