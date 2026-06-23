@@ -47,7 +47,7 @@ Within this collaborative ecosystem, learners do not just consume content but ac
 
 ## **The Impact**
 
-Deployed nationally under the Ministry of Education’s Malaviya Mission Teacher Training Programme, ViBe has engaged over 3,500 learners for more than 23,000 verified watch hours. It has demonstrated a 50 percent increase in course completion rates and reduced operational costs by 60 percent, delivering verified skill acquisition at a population scale of approximately ₹7 per learner per hour.
+Deployed nationally under the Ministry of Education’s Malaviya Mission Teacher Training Programme, ViBe has reached **9,984 unique learners** across **10,959 active enrollments** and **39 courses and cohorts**. It sustains a **~35% course completion rate** — 3.5× the global industry norm of under 10% — with learning that is verified, proctored, and delivered at marginal cost.
 
 ---
 

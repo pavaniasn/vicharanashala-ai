@@ -7,10 +7,11 @@ permalink: /products/
 Explore our portfolio of research-informed learning systems:
 
 - [ViBe]({{ site.baseurl }}/projects/vibe/) - Verified, active learning for online education
+- [Samagama + Yaksha]({{ site.baseurl }}/projects/samagama/) - Internship management at national scale, fully automated
 - [Spandan]({{ site.baseurl }}/projects/spandan/) - Real-time classroom engagement automation
 - [Vi-Slides]({{ site.baseurl }}/projects/vi-slides/) - Question-driven adaptive teaching support
 - [PES]({{ site.baseurl }}/projects/pes/) - Intelligent peer evaluation with quality control
-- [HP Dashboard]({{ site.baseurl }}/projects/hp-dashboard-lti/) - Gamified progress and self-regulated learning
+- [Spurti]({{ site.baseurl }}/projects/spurti/) - Gamified progress and self-regulated learning
 - [Vi-Notes]({{ site.baseurl }}/projects/vi-notes/) - Authorship authenticity verification platform
 - [Vi-Sakha]({{ site.baseurl }}/projects/vi-sakha/) - AI knowledge assistant for academic support
 
