@@ -1,0 +1,34 @@
+<div class="video-card" data-id="{{ include.id }}">
+  <div class="video-thumb-wrap">
+    <img
+      src="https://img.youtube.com/vi/{{ include.id }}/maxresdefault.jpg"
+      alt="{{ include.title | default: 'Watch video' }}"
+      class="video-thumb-img"
+      loading="lazy"
+    >
+    <button class="video-play-btn" aria-label="Play video">
+      <i class="ph-fill ph-play-circle"></i>
+    </button>
+    {% if include.title %}
+    <div class="video-thumb-label">{{ include.title }}</div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+(function() {
+  var cards = document.querySelectorAll('.video-card');
+  cards.forEach(function(card) {
+    card.querySelector('.video-play-btn').addEventListener('click', function() {
+      var id = card.getAttribute('data-id');
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allowfullscreen', '');
+      iframe.setAttribute('allow', 'autoplay; encrypted-media');
+      iframe.className = 'video-iframe';
+      card.querySelector('.video-thumb-wrap').replaceWith(iframe);
+    });
+  });
+})();
+</script>
