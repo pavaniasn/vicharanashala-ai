@@ -181,3 +181,14 @@ permalink: /
     </div>
   </div>
 </section>
+
+<section class="home-section hs-dark">
+  <div class="home-inner events-strip">
+    <div class="events-strip-text">
+      <p class="home-label home-label-inv"><i class="ph ph-calendar-blank"></i> Events</p>
+      <h2 class="home-section-h home-section-h-inv">Come learn with us.</h2>
+      <p class="home-section-p" style="color: rgba(255,255,255,0.6);">Workshops, Faculty Development Programs, product launches, and community gatherings — see what is coming up and register directly.</p>
+    </div>
+    <a href="{{ site.baseurl }}/events/" class="events-strip-cta">See all events →</a>
+  </div>
+</section>
