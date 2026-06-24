@@ -59,8 +59,7 @@ permalink: /
   <div class="home-inner">
     <p class="home-label"><i class="ph ph-eye"></i> Vision</p>
     <h2 class="home-section-h">Learning, deeply human at its core.</h2>
-    <p class="home-section-p">We envision a future where education does not follow a one-size-fits-all model, but adapts to the pace, style, and curiosity of each learner. Technology acts as an enabler — not a distraction — supporting educators and empowering students through intuitive tools and smart systems.</p>
-    <p class="home-section-p">We believe learning is a deeply human act of discovery. Technology doesn't compete with the teacher — it clears the path for them.</p>
+    <p class="home-section-p">Learning is a deeply human act of discovery. It should adapt to each learner's pace, style, and curiosity — not follow a one-size-fits-all model. Technology, done right, doesn't compete with the teacher. It clears the path for them.</p>
     <p class="home-section-p">We also believe that the best learning systems are the ones that do not require a large budget to reach a large number of people. Scale and quality are not opposites — that tension is exactly what we design for.</p>
   </div>
 </section>
