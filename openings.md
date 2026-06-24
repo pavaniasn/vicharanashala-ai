@@ -32,7 +32,7 @@ Open courses from Vicharanashala, hosted on the ViBe platform. All courses are f
 
 ### Coming Soon
 
-New courses will be announced on this website and the lab's LinkedIn page. Submit your interest below to be notified when they open.
+New courses will be announced on this website and the [lab's LinkedIn page](https://www.linkedin.com/company/vicharanashala/posts){:target="_blank"}. Submit your interest below to be notified when they open.
 
 | Course | Audience | Status |
 |---|---|---|
