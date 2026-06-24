@@ -29,9 +29,9 @@ permalink: /
 
 <section class="home-section hs-light" id="find-your-path">
   <div class="home-inner">
-    <p class="home-label"><i class="ph ph-compass"></i> Find Your Path</p>
-    <h2 class="home-section-h">Who are you here for?</h2>
-    <p class="home-section-p">Vicharanashala works with students seeking research exposure, faculty looking to grow, and institutional partners building the future of higher education. Find what's most relevant to you.</p>
+    <p class="home-label"><i class="ph ph-compass"></i> Start Here</p>
+    <h2 class="home-section-h">Are you a student looking for your next opportunity, a faculty member ready to grow, or a partner building education at scale?</h2>
+    <p class="home-section-p">We have something for every stakeholder.</p>
     <div class="audience-grid">
       <a href="{{ site.baseurl }}/for-students/" class="audience-card fade-up">
         <i class="ph ph-graduation-cap audience-card-icon"></i>
