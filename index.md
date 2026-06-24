@@ -6,26 +6,22 @@ permalink: /
 
 <section class="home-hero">
   <div class="home-inner">
-    <p class="home-eyebrow"><i class="ph ph-flask"></i>&nbsp; VLED Lab &nbsp;·&nbsp; IIT Ropar</p>
+    <p class="home-eyebrow">VLED Lab &nbsp;·&nbsp; IIT Ropar</p>
     <h1 class="home-title">Vicharanashala</h1>
-    <p class="home-tagline">An education design lab working at the intersection of pedagogy, technology, and national scale.</p>
+    <p class="home-tagline">Designing for learning at scale.</p>
     <a href="#find-your-path" class="hero-cta">Find what's for you →</a>
     <div class="hero-stats-row">
       <div class="hero-stat">
-        <span class="hero-stat-num">~10,000</span>
-        <span class="hero-stat-lbl">Learners on ViBe</span>
+        <span class="hero-stat-num">10,000+</span>
+        <span class="hero-stat-lbl">Learners on ViBe &amp; counting</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-num">3,500+</span>
-        <span class="hero-stat-lbl">Faculty Reached</span>
+        <span class="hero-stat-num">35+</span>
+        <span class="hero-stat-lbl">Faculty Reached &amp; counting</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-num">8,400+</span>
-        <span class="hero-stat-lbl">Students — Internship</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-num">₹2.15 Cr</span>
-        <span class="hero-stat-lbl">Funding Secured</span>
+        <span class="hero-stat-num">2,000+</span>
+        <span class="hero-stat-lbl">Internship Offer Letters &amp; counting</span>
       </div>
     </div>
   </div>
@@ -65,6 +61,7 @@ permalink: /
     <h2 class="home-section-h">Learning, deeply human at its core.</h2>
     <p class="home-section-p">We envision a future where education does not follow a one-size-fits-all model, but adapts to the pace, style, and curiosity of each learner. Technology acts as an enabler — not a distraction — supporting educators and empowering students through intuitive tools and smart systems.</p>
     <p class="home-section-p">We believe learning is a deeply human act of discovery. Technology doesn't compete with the teacher — it clears the path for them.</p>
+    <p class="home-section-p">We also believe that the best learning systems are the ones that do not require a large budget to reach a large number of people. Scale and quality are not opposites — that tension is exactly what we design for.</p>
   </div>
 </section>
 
