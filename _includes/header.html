@@ -64,7 +64,7 @@
                   </div>
                   {%- endif -%}
                 {%- else -%}
-                  <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                  <a class="page-link{% if page.url == my_page.url %} nav-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                 {%- endif -%}
               {%- endunless -%}
             {%- endif -%}
