@@ -717,8 +717,13 @@ table {
   display: flex;
   gap: 1.4rem;
   padding: 2.2rem 2.5rem 2.2rem 0;
-  border-bottom: 1px solid $grey-color-light;
 
+  // Horizontal cross line — only between the two rows
+  &:nth-child(1), &:nth-child(2) {
+    border-bottom: 1px solid $grey-color-light;
+  }
+
+  // Vertical cross line — only between the two columns
   &:nth-child(odd) {
     border-right: 1px solid $grey-color-light;
     padding-right: 2.5rem;
@@ -729,19 +734,13 @@ table {
     padding-right: 0;
   }
 
-  // last row — no bottom border (items 3 and 4)
-  &:nth-child(3),
-  &:nth-child(4) {
-    border-bottom: none;
-  }
-
   @include media-query($on-palm) {
     border-right: none !important;
+    border-bottom: 1px solid $grey-color-light !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
-    border-bottom: 1px solid $grey-color-light;
 
-    &:last-child { border-bottom: none; }
+    &:last-child { border-bottom: none !important; }
   }
 
   .process-num {
