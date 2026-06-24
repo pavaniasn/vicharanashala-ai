@@ -1,0 +1,65 @@
+---
+layout: page
+title: Openings
+permalink: /openings/
+---
+
+Whether you are a student looking to learn or gain research experience, a faculty member exploring collaboration, or a professional who wants to contribute — this is where you find your entry point into Vicharanashala.
+
+---
+
+## Courses
+
+Open courses from Vicharanashala, hosted on the ViBe platform. All courses are free of cost and can be completed asynchronously at your own pace.
+
+<div class="opening-courses">
+
+  <div class="opening-course-card">
+    <div class="opening-course-meta">Free &nbsp;·&nbsp; Asynchronous &nbsp;·&nbsp; ViBe Platform</div>
+    <h3 class="opening-course-title">Fundamentals of AI Using Agriculture Datasets</h3>
+    <p class="opening-course-desc">An introductory course on artificial intelligence using real-world agriculture datasets. Learn core machine learning concepts through hands-on, domain-grounded problems. No prior AI experience required.</p>
+    <a href="#register-ai-agri" class="opening-btn">Request to Register</a>
+  </div>
+
+  <div class="opening-course-card">
+    <div class="opening-course-meta">Free &nbsp;·&nbsp; Asynchronous &nbsp;·&nbsp; ViBe Platform</div>
+    <h3 class="opening-course-title">Fundamentals of MERN Stack</h3>
+    <p class="opening-course-desc">A beginner-friendly course covering the full MERN stack — MongoDB, Express, React, and Node.js. Build real web applications from scratch with guided projects.</p>
+    <a href="#register-mern" class="opening-btn">Request to Register</a>
+  </div>
+
+</div>
+
+### Coming Soon
+
+New courses will be announced on this website and the lab's LinkedIn page. Submit your interest below to be notified when they open.
+
+| Course | Audience | Status |
+|---|---|---|
+| Courses on Artificial Intelligence | Students & Faculty | Coming Soon |
+| Courses on Computer Science | Students | Coming Soon |
+| Courses for Faculty | Faculty | Coming Soon |
+
+---
+
+## Intern Positions
+
+Vicharanashala runs structured internship programs for students at all levels. Our flagship virtual internship — **Summership** — is open to students from institutions across India, including Tier 2 and Tier 3 colleges. The program runs on the Samagama platform with AI-conducted screening, removing the network gatekeeping that typically limits access to research internships.
+
+Positions are announced on IIT Ropar's official recruitment portal. If you are a student interested in interning with the lab, submit your interest and we will reach out when a relevant opening is announced.
+
+<a href="#intern-interest-form" class="opening-btn">Submit Intern Interest</a>
+
+---
+
+## Open Positions
+
+We are a small, high-output team and we hire selectively. We are looking for people with strong conviction about education, technology, or both. Openings exist for:
+
+- **Research scholars and pre-doc fellows** — working on learning systems, AI in education, or pedagogical design
+- **Faculty members** — interested in collaboration, co-research, or joining the lab
+- **Professionals** — with backgrounds in education design, instructional technology, or software development
+
+Positions are also listed on IIT Ropar's official recruitment page.
+
+<a href="#open-positions-form" class="opening-btn">Submit Your Interest</a>

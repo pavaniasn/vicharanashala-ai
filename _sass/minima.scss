@@ -694,3 +694,62 @@ table {
     align-self: flex-start;
   }
 }
+
+// ── Openings page ──
+.opening-courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.6rem 0 2rem;
+}
+
+.opening-course-card {
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.opening-course-meta {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: $grey-color;
+}
+
+.opening-course-title {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0.2rem 0;
+}
+
+.opening-course-desc {
+  font-size: 0.88rem;
+  color: $grey-color;
+  line-height: 1.55;
+  flex-grow: 1;
+}
+
+.opening-btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.45rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: $text-color;
+  border: 1px solid $grey-color;
+  border-radius: 3px;
+  text-decoration: none;
+  align-self: flex-start;
+
+  &:hover {
+    background: $text-color;
+    color: #fff;
+    text-decoration: none;
+  }
+}
