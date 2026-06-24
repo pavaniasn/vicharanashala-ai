@@ -36,19 +36,19 @@ permalink: /
       <a href="{{ site.baseurl }}/for-students/" class="audience-card fade-up">
         <i class="ph ph-graduation-cap audience-card-icon"></i>
         <div class="audience-card-title">Students</div>
-        <p class="audience-card-desc">Internships, free courses, research opportunities, and resources to build your learning.</p>
+        <p class="audience-card-desc">Internships, free courses, and research opportunities — for students who want more than a degree.</p>
         <span class="audience-card-link">Explore →</span>
       </a>
       <a href="{{ site.baseurl }}/for-faculty/" class="audience-card fade-up">
         <i class="ph ph-chalkboard-teacher audience-card-icon"></i>
         <div class="audience-card-title">Faculty</div>
-        <p class="audience-card-desc">Professional development programs, classroom tools, and collaboration with the lab.</p>
+        <p class="audience-card-desc">Professional development programs, research collaboration, and tools to grow as an educator.</p>
         <span class="audience-card-link">Explore →</span>
       </a>
       <a href="{{ site.baseurl }}/for-partners/" class="audience-card fade-up">
         <i class="ph ph-handshake audience-card-icon"></i>
-        <div class="audience-card-title">Partners & Funders</div>
-        <p class="audience-card-desc">Our national programs, research output, impact at scale, and how we work with institutions.</p>
+        <div class="audience-card-title">Partners</div>
+        <p class="audience-card-desc">Funding, research collaboration, or custom programs — if you're building with us or want to, start here.</p>
         <span class="audience-card-link">Explore →</span>
       </a>
     </div>
