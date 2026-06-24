@@ -151,3 +151,33 @@ permalink: /
     </div>
   </div>
 </section>
+
+<section class="home-section hs-mid">
+  <div class="home-inner">
+    <p class="home-label"><i class="ph ph-quotes"></i> In Their Words</p>
+    <h2 class="home-section-h">The people we work with speak for themselves.</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card fade-up">
+        <p class="testimonial-quote">"Placeholder — replace with actual student quote about internship or ViBe experience."</p>
+        <div class="testimonial-meta">
+          <span class="testimonial-name">Student Name</span>
+          <span class="testimonial-role">B.Tech, [College] · ViBe / Internship Program</span>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <p class="testimonial-quote">"Placeholder — replace with actual faculty quote about GuruSetu or CBPAI."</p>
+        <div class="testimonial-meta">
+          <span class="testimonial-name">Faculty Name</span>
+          <span class="testimonial-role">Assistant Professor, [College] · GuruSetu FDP</span>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up">
+        <p class="testimonial-quote">"Placeholder — replace with actual quote from a student or collaborator."</p>
+        <div class="testimonial-meta">
+          <span class="testimonial-name">Name</span>
+          <span class="testimonial-role">Role · Program</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

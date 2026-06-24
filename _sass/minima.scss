@@ -1032,6 +1032,59 @@ table {
   }
 }
 
+// ── Testimonials ──
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+  margin-top: 2.8rem;
+
+  @include media-query($on-laptop) {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+.testimonial-card {
+  background: #fff;
+  border: 1px solid $grey-color-light;
+  border-radius: 6px;
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.testimonial-quote {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: $text-color;
+  font-style: italic;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.testimonial-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid $grey-color-light;
+}
+
+.testimonial-name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: $text-color;
+  letter-spacing: -0.01em;
+}
+
+.testimonial-role {
+  font-size: 0.78rem;
+  color: $grey-color;
+  letter-spacing: 0.02em;
+}
+
 // ── Scroll animations ──
 .fade-up {
   opacity: 0;
