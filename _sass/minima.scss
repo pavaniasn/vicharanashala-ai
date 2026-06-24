@@ -50,13 +50,26 @@ $on-laptop:     860px !default;
 .site-header {
   border-top: none;
   border-bottom: 1px solid $grey-color-light;
-  padding: 0.2rem 0;
+  padding: 0;
+
+  // Flexbox layout replaces the float-based minima default
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 3.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 .site-title {
+  float: none;          // cancel _layout.scss float:left
+  line-height: 1.2;
   font-weight: 500;
   letter-spacing: -0.02em;
   font-size: 1.1rem;
+  flex-shrink: 0;
 
   &, &:visited {
     color: $text-color;
@@ -64,6 +77,22 @@ $on-laptop:     860px !default;
 }
 
 .site-nav {
+  float: none;          // cancel _layout.scss float:right
+  line-height: 1;
+
+  // Desktop: horizontal pill row
+  .trigger {
+    clear: none;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .dropdown {
+    display: flex;
+    align-items: center;
+  }
+
   .page-link,
   .dropbtn {
     font-size: 0.78rem;
@@ -90,6 +119,26 @@ $on-laptop:     860px !default;
     font-weight: 600;
     border-bottom: 2px solid $text-color;
     padding-bottom: 1px;
+  }
+
+  // Mobile: override trigger to flex-column when hamburger is checked
+  @include media-query($on-palm) {
+    input ~ .trigger {
+      display: none;
+    }
+
+    input:checked ~ .trigger {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0;
+      padding-bottom: 5px;
+    }
+
+    .dropdown {
+      flex-direction: column;
+      align-items: flex-end;
+    }
   }
 }
 
