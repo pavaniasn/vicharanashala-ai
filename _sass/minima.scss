@@ -753,3 +753,138 @@ table {
     text-decoration: none;
   }
 }
+
+// ── Audience cards (homepage) ──
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin: 2rem 0 0;
+}
+
+.audience-card {
+  border: 1px solid $grey-color-light;
+  border-radius: 4px;
+  padding: 1.6rem;
+  text-decoration: none;
+  color: $text-color;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+
+  &:hover {
+    border-color: $grey-color;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    text-decoration: none;
+    color: $text-color;
+  }
+
+  .audience-card-icon {
+    font-size: 2rem;
+    color: $grey-color;
+    margin-bottom: 0.3rem;
+  }
+
+  .audience-card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .audience-card-desc {
+    font-size: 0.85rem;
+    color: $grey-color;
+    line-height: 1.55;
+    flex-grow: 1;
+  }
+
+  .audience-card-link {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: $text-color;
+    margin-top: 0.4rem;
+  }
+}
+
+// ── Audience landing pages ──
+.audience-hero {
+  padding: 2rem 0 2.5rem;
+  border-bottom: 1px solid $grey-color-light;
+  margin-bottom: 2.5rem;
+
+  .audience-hero-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: $grey-color;
+    margin-bottom: 0.8rem;
+  }
+
+  .audience-hero-h {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+    margin-bottom: 0.8rem;
+  }
+
+  .audience-hero-p {
+    font-size: 1rem;
+    color: $grey-color;
+    line-height: 1.7;
+    max-width: 620px;
+  }
+}
+
+.audience-section {
+  display: flex;
+  gap: 1.4rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid $grey-color-light;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  .audience-section-icon {
+    font-size: 1.6rem;
+    color: $grey-color;
+    flex-shrink: 0;
+    padding-top: 0.2rem;
+    width: 2rem;
+    text-align: center;
+  }
+
+  .audience-section-body {
+    flex: 1;
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: $grey-color;
+      line-height: 1.7;
+      margin-bottom: 0.8rem;
+    }
+  }
+}
+
+.audience-link {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: $text-color;
+  text-decoration: underline;
+  text-decoration-color: $grey-color-light;
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration-color: $text-color;
+  }
+}

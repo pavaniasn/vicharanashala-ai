@@ -91,6 +91,34 @@ permalink: /
   </div>
 </section>
 
+<section class="home-section hs-mid">
+  <div class="home-inner">
+    <p class="home-label"><i class="ph ph-compass"></i> Find Your Path</p>
+    <h2 class="home-section-h">Who are you here for?</h2>
+    <p class="home-section-p">Vicharanashala works with students seeking research exposure, faculty looking to grow, and institutional partners building the future of higher education. Find what's most relevant to you.</p>
+    <div class="audience-grid">
+      <a href="{{ site.baseurl }}/for-students/" class="audience-card">
+        <i class="ph ph-graduation-cap audience-card-icon"></i>
+        <div class="audience-card-title">Students</div>
+        <p class="audience-card-desc">Internships, free courses, research opportunities, and resources to build your learning.</p>
+        <span class="audience-card-link">Explore →</span>
+      </a>
+      <a href="{{ site.baseurl }}/for-faculty/" class="audience-card">
+        <i class="ph ph-chalkboard-teacher audience-card-icon"></i>
+        <div class="audience-card-title">Faculty</div>
+        <p class="audience-card-desc">Professional development programs, classroom tools, and collaboration with the lab.</p>
+        <span class="audience-card-link">Explore →</span>
+      </a>
+      <a href="{{ site.baseurl }}/for-partners/" class="audience-card">
+        <i class="ph ph-handshake audience-card-icon"></i>
+        <div class="audience-card-title">Partners & Funders</div>
+        <p class="audience-card-desc">Our national programs, research output, impact at scale, and how we work with institutions.</p>
+        <span class="audience-card-link">Explore →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="home-section hs-light">
   <div class="home-inner">
     <p class="home-label"><i class="ph ph-gear"></i> How We Work</p>
