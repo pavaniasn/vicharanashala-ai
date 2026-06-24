@@ -729,17 +729,10 @@ table {
     padding-right: 0;
   }
 
-  // last row — no bottom border (items 4 and 5)
-  &:nth-child(4),
-  &:nth-child(5) {
+  // last row — no bottom border (items 3 and 4)
+  &:nth-child(3),
+  &:nth-child(4) {
     border-bottom: none;
-  }
-
-  // item 5 (odd position in last row) spans full width
-  &:nth-child(5) {
-    grid-column: 1 / -1;
-    border-right: none;
-    padding-right: 0;
   }
 
   @include media-query($on-palm) {
@@ -749,7 +742,6 @@ table {
     border-bottom: 1px solid $grey-color-light;
 
     &:last-child { border-bottom: none; }
-    &:nth-child(4) { border-bottom: 1px solid $grey-color-light; }
   }
 
   .process-num {
@@ -1062,4 +1054,3 @@ table {
 .process-item:nth-child(2) { transition-delay: 0.08s; }
 .process-item:nth-child(3) { transition-delay: 0.16s; }
 .process-item:nth-child(4) { transition-delay: 0.24s; }
-.process-item:nth-child(5) { transition-delay: 0.32s; }

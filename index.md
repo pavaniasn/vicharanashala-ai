@@ -100,11 +100,11 @@ permalink: /
       <div class="track-card">
         <h3 class="track-title">National Programs</h3>
         <p class="track-text">Government-funded faculty development at scale, in partnership with the Ministry of Education and three IITs. GuruSetu and CBPAI reach faculty across India through self-paced, rigorous, pedagogy-first programs.</p>
-        <a href="{{ site.baseurl }}/national_initiative/" class="track-link">Explore Programs →</a>
+        <a href="{{ site.baseurl }}/national_initiatives/" class="track-link">Explore Programs →</a>
       </div>
       <div class="track-card">
         <h3 class="track-title">EdTech Products</h3>
-        <p class="track-text">Eight in-house tools built to solve verified classroom problems — each one emerged from a specific research question, not a feature list. From online learning to AI-powered internship management.</p>
+        <p class="track-text">In-house tools, each built around a specific research question — not a feature list. From online learning platforms to AI-powered internship management.</p>
         <a href="{{ site.baseurl }}/products/" class="track-link">Explore Products →</a>
       </div>
     </div>
@@ -119,29 +119,21 @@ permalink: /
       <div class="process-item fade-up">
         <div class="process-num">01</div>
         <div class="process-body">
-          <i class="ph ph-book-open process-icon"></i>
-          <div class="process-title">Designing with Heart and Science</div>
-          <p class="process-text">Research rigour combined with the soul of storytelling — anchored in pedagogy, delivered with a creative spark.</p>
+          <i class="ph ph-ear process-icon"></i>
+          <div class="process-title">Listen First, Build from Evidence</div>
+          <p class="process-text">We spend time with educators and students before we design — understanding their real challenges first. Everything we build is then anchored in pedagogy and evidence. Creative craft comes next, because rigour without engagement doesn't teach.</p>
         </div>
       </div>
       <div class="process-item fade-up">
         <div class="process-num">02</div>
         <div class="process-body">
-          <i class="ph ph-bridge process-icon"></i>
-          <div class="process-title">Building Bridges, Not Barriers</div>
-          <p class="process-text">Solutions meant to clarify, not complicate. Visuals, interactivity, and adaptive pathways for every learner.</p>
+          <i class="ph ph-equals process-icon"></i>
+          <div class="process-title">Clarity is the Design</div>
+          <p class="process-text">We build to clarify, not to impress. If understanding it takes effort, we haven't finished designing.</p>
         </div>
       </div>
       <div class="process-item fade-up">
         <div class="process-num">03</div>
-        <div class="process-body">
-          <i class="ph ph-ear process-icon"></i>
-          <div class="process-title">Listening Before Creating</div>
-          <p class="process-text">We spend time understanding the real challenges of educators and students before we build.</p>
-        </div>
-      </div>
-      <div class="process-item fade-up">
-        <div class="process-num">04</div>
         <div class="process-body">
           <i class="ph ph-cpu process-icon"></i>
           <div class="process-title">Using Tech with Intention</div>
@@ -149,7 +141,7 @@ permalink: /
         </div>
       </div>
       <div class="process-item fade-up">
-        <div class="process-num">05</div>
+        <div class="process-num">04</div>
         <div class="process-body">
           <i class="ph ph-arrows-clockwise process-icon"></i>
           <div class="process-title">Staying in Motion</div>
