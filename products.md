@@ -4,7 +4,7 @@ title: Products
 permalink: /products/
 ---
 
-Seven tools built to solve verified problems in learning — each one emerged from a research question, not a feature list.
+Eight tools built to solve verified problems in learning — each one emerged from a research question, not a feature list.
 
 <div class="product-grid">
 
@@ -56,6 +56,13 @@ Seven tools built to solve verified problems in learning — each one emerged fr
     <div class="product-card-desc">Authorship authenticity verification platform. Addresses AI-generated content in academic writing.</div>
     <span class="product-card-tag">In Development</span>
   </div>
+
+  <a href="https://tenali.fun" class="product-card" target="_blank" rel="noopener">
+    <div class="product-card-icon-wrap"><i class="ph ph-sparkle product-card-icon"></i></div>
+    <div class="product-card-name">Tenali</div>
+    <div class="product-card-desc">Learning the fun way — foundational numeracy to advanced algebra, taught through a uniquely engaging approach.</div>
+    <span class="product-card-tag">Deployed</span>
+  </a>
 
 </div>
 
