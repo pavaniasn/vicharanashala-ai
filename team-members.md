@@ -14,7 +14,7 @@ permalink: /team-members/
 <div class="team-section">
   <h2 class="team-section-h">Principal Investigator</h2>
   <div class="team-card team-card-pi">
-    <div class="team-avatar team-avatar-pi" style="background:#1a1a1a; color:#f9f9f7;">SI</div>
+    <div class="team-photo-placeholder team-photo-pi"><i class="ph ph-user"></i></div>
     <div class="team-card-body">
       <div class="team-name team-name-pi">Prof. Sudarshan Iyengar</div>
       <div class="team-role">Principal Investigator &amp; Group Lead</div>
@@ -37,7 +37,7 @@ permalink: /team-members/
   <div class="team-grid">
 
     <div class="team-card">
-      <div class="team-avatar" style="background:#2a2a2a; color:#f9f9f7;">JG</div>
+      <div class="team-photo-placeholder team-photo-light"><i class="ph ph-user"></i></div>
       <div class="team-card-body">
         <div class="team-name">Jinal Gupta</div>
         <div class="team-role">Project Associate &amp; Aspiring Research Scholar</div>
@@ -50,7 +50,7 @@ permalink: /team-members/
     </div>
 
     <div class="team-card">
-      <div class="team-avatar" style="background:#2a2a2a; color:#f9f9f7;">MV</div>
+      <div class="team-photo-placeholder team-photo-light"><i class="ph ph-user"></i></div>
       <div class="team-card-body">
         <div class="team-name">Meenakshi V</div>
         <div class="team-role">AI Skill Development Head &amp; Research Scholar</div>
@@ -62,7 +62,7 @@ permalink: /team-members/
     </div>
 
     <div class="team-card">
-      <div class="team-avatar" style="background:#3ab7bf; color:#fff;">PA</div>
+      <div class="team-photo-placeholder team-photo-light"><i class="ph ph-user"></i></div>
       <div class="team-card-body">
         <div class="team-name">Dr. Pavani Ayinampudi</div>
         <div class="team-role">Learning Innovation &amp; Process Architect</div>
@@ -79,7 +79,7 @@ permalink: /team-members/
     </div>
 
     <div class="team-card">
-      <div class="team-avatar" style="background:#e07020; color:#fff;">PH</div>
+      <div class="team-photo-placeholder team-photo-light"><i class="ph ph-user"></i></div>
       <div class="team-card-body">
         <div class="team-name">Prakash Hegade</div>
         <div class="team-role">Instruction Systems Scientist</div>
@@ -96,7 +96,7 @@ permalink: /team-members/
     </div>
 
     <div class="team-card">
-      <div class="team-avatar" style="background:#e07020; color:#fff;">RS</div>
+      <div class="team-photo-placeholder team-photo-light"><i class="ph ph-user"></i></div>
       <div class="team-card-body">
         <div class="team-name">Rohit Sharma</div>
         <div class="team-role">Research Scholar</div>
@@ -113,7 +113,7 @@ permalink: /team-members/
     </div>
 
     <div class="team-card">
-      <div class="team-avatar" style="background:#3ab7bf; color:#fff;">SS</div>
+      <div class="team-photo-placeholder team-photo-light"><i class="ph ph-user"></i></div>
       <div class="team-card-body">
         <div class="team-name">Sakshi Sharma</div>
         <div class="team-role">Research Scholar</div>
@@ -352,19 +352,36 @@ permalink: /team-members/
 .team-role-ops { color: rgba(255,255,255,0.5); }
 .team-bio-ops { color: rgba(255,255,255,0.5); font-style: italic; }
 
-/* Photo placeholder */
+/* Photo placeholders */
 .team-avatar-wrap { flex-shrink: 0; }
 .team-photo-placeholder {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.1);
-  border: 1px dashed rgba(255,255,255,0.25);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(255,255,255,0.3);
   font-size: 1.2rem;
+  flex-shrink: 0;
+}
+.team-photo-light {
+  background: #efefec;
+  border: 1.5px dashed #c0c0bb;
+  color: #b0b0aa;
+}
+.team-photo-pi {
+  width: 64px;
+  height: 64px;
+  font-size: 1.6rem;
+  background: #efefec;
+  border: 1.5px dashed #c0c0bb;
+  color: #b0b0aa;
+}
+/* ops dark placeholder already uses inline dark styles above */
+.team-card-ops .team-photo-placeholder {
+  background: rgba(255,255,255,0.1);
+  border: 1px dashed rgba(255,255,255,0.25);
+  color: rgba(255,255,255,0.3);
 }
 
 .team-ops-note {
