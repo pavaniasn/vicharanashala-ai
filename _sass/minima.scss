@@ -85,7 +85,11 @@ $on-laptop:     860px !default;
     gap: 1.2rem;
   }
 
-  .dropdown { display: flex; align-items: center; }
+  .dropdown {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
 
   .page-link,
   .dropbtn {
@@ -98,7 +102,13 @@ $on-laptop:     860px !default;
     &:hover { color: $text-color; text-decoration: none; }
   }
 
-  .dropdown-content { background-color: $background-color; }
+  .dropdown-content {
+    top: 100%;
+    left: auto;
+    right: 0;
+    z-index: 1000;
+    background-color: $background-color;
+  }
 
   .dropdown-content a {
     font-size: 0.82rem;
