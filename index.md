@@ -69,22 +69,34 @@ permalink: /
     <p class="home-section-p">Higher education has many unsolved challenges. We do not pretend to address all of them. But three persistent gaps — ones we have studied, researched, and built around — define the scope of our work.</p>
     <div class="challenges-grid">
       <div class="challenge-card fade-up">
-        <span class="challenge-num">01</span>
-        <i class="ph ph-chalkboard-teacher challenge-icon"></i>
-        <div class="challenge-title">The Teacher</div>
-        <p class="challenge-text">A good classroom begins with a good teacher. Good practice demands continuous professional development — but reaching millions of faculty without losing rigour or flexibility is a hard design problem. That is the question we experiment with in our faculty development programs.</p>
+        <div class="challenge-left">
+          <span class="challenge-num">01</span>
+          <i class="ph ph-chalkboard-teacher challenge-icon"></i>
+        </div>
+        <div class="challenge-right">
+          <div class="challenge-title">The Teacher</div>
+          <p class="challenge-text">A good classroom begins with a good teacher. Good practice demands continuous professional development — but reaching millions of faculty without losing rigour or flexibility is a hard design problem. That is the question we experiment with in our faculty development programs.</p>
+        </div>
       </div>
       <div class="challenge-card fade-up">
-        <span class="challenge-num">02</span>
-        <i class="ph ph-monitor-play challenge-icon"></i>
-        <div class="challenge-title">Online Learning</div>
-        <p class="challenge-text">The demand for quality education far outpaces what physical infrastructure alone can deliver. Online learning is the obvious answer — but done poorly, it creates the appearance of access without the reality of learning. How do we design systems that actually work at scale?</p>
+        <div class="challenge-left">
+          <span class="challenge-num">02</span>
+          <i class="ph ph-monitor-play challenge-icon"></i>
+        </div>
+        <div class="challenge-right">
+          <div class="challenge-title">Online Learning</div>
+          <p class="challenge-text">The demand for quality education far outpaces what physical infrastructure alone can deliver. Online learning is the obvious answer — but done poorly, it creates the appearance of access without the reality of learning. How do we design systems that actually work at scale?</p>
+        </div>
       </div>
       <div class="challenge-card fade-up">
-        <span class="challenge-num">03</span>
-        <i class="ph ph-briefcase challenge-icon"></i>
-        <div class="challenge-title">Research &amp; Internships</div>
-        <p class="challenge-text">A degree alone is no longer enough to signal what a student can actually do. Students need direct exposure — structured internships, mentored research. But access is bottlenecked by networks and coordination capacity. Can we bypass those structural constraints?</p>
+        <div class="challenge-left">
+          <span class="challenge-num">03</span>
+          <i class="ph ph-briefcase challenge-icon"></i>
+        </div>
+        <div class="challenge-right">
+          <div class="challenge-title">Research &amp; Internships</div>
+          <p class="challenge-text">A degree alone is no longer enough to signal what a student can actually do. Students need direct exposure — structured internships, mentored research. But access is bottlenecked by networks and coordination capacity. Can we bypass those structural constraints?</p>
+        </div>
       </div>
     </div>
   </div>
