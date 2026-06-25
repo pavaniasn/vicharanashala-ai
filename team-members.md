@@ -42,7 +42,7 @@ permalink: /team-members/
       <div class="team-sq-role">Project Associate &amp; Research Scholar</div>
       <div class="team-tags">
         <span class="team-tag">Tenali</span>
-        <span class="team-tag">Vi-Sakha</span>
+        <span class="team-tag">Samagama</span>
       </div>
     </div>
 
@@ -110,39 +110,32 @@ permalink: /team-members/
 </div>
 
 <!-- Operations team -->
-<div class="team-ops-section">
-  <p class="team-ops-label"><i class="ph ph-gear"></i> Operations &amp; Support</p>
-  <h2 class="team-ops-h">The ones who make it run.</h2>
-  <p class="team-ops-intro">Every cohort that launches, every faculty member who shows up, every deadline that's met — it happens because someone in operations made sure it could. Vicharanashala's ops team is not a support function. It is the infrastructure that everything else is built on.</p>
-
+<div class="team-section team-ops-section">
+  <h2 class="team-section-h"><i class="ph ph-gear"></i> Operations &amp; Support</h2>
   <div class="team-sq-grid">
 
     <div class="team-sq-card team-sq-card-ops">
-      <div class="team-sq-photo team-sq-photo-ops"><i class="ph ph-user"></i></div>
-      <div class="team-sq-name team-sq-name-ops">Atul</div>
-      <div class="team-sq-role team-sq-role-ops">Video Editor</div>
-      <p class="team-ops-bio">Add a two-sentence bio here.</p>
+      <div class="team-sq-photo"><i class="ph ph-user"></i></div>
+      <div class="team-sq-name">Atul</div>
+      <div class="team-sq-role">Video Editor</div>
     </div>
 
     <div class="team-sq-card team-sq-card-ops">
-      <div class="team-sq-photo team-sq-photo-ops"><i class="ph ph-user"></i></div>
-      <div class="team-sq-name team-sq-name-ops">Harshdeep</div>
-      <div class="team-sq-role team-sq-role-ops">Operations &amp; Coordination</div>
-      <p class="team-ops-bio">Add a two-sentence bio here.</p>
+      <div class="team-sq-photo"><i class="ph ph-user"></i></div>
+      <div class="team-sq-name">Harshdeep</div>
+      <div class="team-sq-role">Operations &amp; Coordination</div>
     </div>
 
     <div class="team-sq-card team-sq-card-ops">
-      <div class="team-sq-photo team-sq-photo-ops"><i class="ph ph-user"></i></div>
-      <div class="team-sq-name team-sq-name-ops">Meenakshi Kalotra</div>
-      <div class="team-sq-role team-sq-role-ops">Operations &amp; Support</div>
-      <p class="team-ops-bio">Add a two-sentence bio here.</p>
+      <div class="team-sq-photo"><i class="ph ph-user"></i></div>
+      <div class="team-sq-name">Meenakshi Kalotra</div>
+      <div class="team-sq-role">Operations &amp; Support</div>
     </div>
 
     <div class="team-sq-card team-sq-card-ops">
-      <div class="team-sq-photo team-sq-photo-ops"><i class="ph ph-user"></i></div>
-      <div class="team-sq-name team-sq-name-ops">Rajan Gupta</div>
-      <div class="team-sq-role team-sq-role-ops">Operations &amp; Support</div>
-      <p class="team-ops-bio">Add a two-sentence bio here.</p>
+      <div class="team-sq-photo"><i class="ph ph-user"></i></div>
+      <div class="team-sq-name">Rajan Gupta</div>
+      <div class="team-sq-role">Operations &amp; Support</div>
     </div>
 
   </div>
@@ -241,31 +234,8 @@ permalink: /team-members/
 .team-link-gh:visited { color: #1a1a1a; }
 
 /* ── Ops section ── */
-.team-ops-section {
-  background: #1a1a1a; border-radius: 10px;
-  padding: 3rem 2.5rem; margin-bottom: 3.5rem;
-}
-.team-ops-label {
-  font-size: 0.72rem; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase;
-  color: rgba(255,255,255,0.4); margin: 0 0 0.8rem 0;
-  display: flex; align-items: center; gap: 0.4rem;
-}
-.team-ops-h { font-size: 1.5rem; font-weight: 600; letter-spacing: -0.02em; color: #f9f9f7; margin: 0 0 1rem 0; }
-.team-ops-intro { font-size: 0.95rem; line-height: 1.75; color: rgba(255,255,255,0.65); max-width: 640px; margin: 0 0 2.5rem 0; }
-
-.team-sq-card-ops {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-}
-.team-sq-card-ops:hover { border-color: rgba(255,255,255,0.3); box-shadow: 0 2px 16px rgba(0,0,0,0.3); }
-.team-sq-photo-ops {
-  background: rgba(255,255,255,0.08);
-  border: 1.5px dashed rgba(255,255,255,0.2);
-  color: rgba(255,255,255,0.25);
-}
-.team-sq-name-ops { color: #f9f9f7; }
-.team-sq-role-ops { color: rgba(255,255,255,0.5); }
-.team-ops-bio { font-size: 0.78rem; color: rgba(255,255,255,0.35); font-style: italic; line-height: 1.5; margin: 0.3rem 0 0; }
+.team-ops-section { border-bottom: none; }
+.team-sq-card-ops { background: #efefec; border-color: #e2e2de; }
 
 /* ── Alumni ── */
 .team-alumni { margin-bottom: 2rem; }
@@ -276,6 +246,5 @@ permalink: /team-members/
 @media (max-width: 600px) {
   .team-pi-card { flex-direction: column; align-items: center; text-align: center; }
   .team-pi-bio { max-width: 100%; }
-  .team-ops-section { padding: 2rem 1.4rem; }
 }
 </style>
