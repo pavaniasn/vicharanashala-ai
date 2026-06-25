@@ -29,7 +29,7 @@
           <a href="{{ '/products/' | relative_url }}" class="dropbtn">Work</a>
           <div class="dropdown-content">
             <a href="{{ '/products/' | relative_url }}"{% if page.url contains 'products' %} class="nav-active"{% endif %}>Products</a>
-            <a href="{{ '/research_publications/' | relative_url }}"{% if page.url contains 'research' %} class="nav-active"{% endif %}>Research</a>
+            <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="nav-active"{% endif %}>Research</a>
             <a href="{{ '/lab_initiatives/' | relative_url }}"{% if page.url contains 'lab_initiatives' %} class="nav-active"{% endif %}>Lab Initiatives</a>
             <a href="{{ '/national_initiatives/' | relative_url }}"{% if page.url contains 'national' %} class="nav-active"{% endif %}>National Initiatives</a>
           </div>
