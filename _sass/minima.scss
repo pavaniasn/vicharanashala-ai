@@ -49,54 +49,59 @@ $on-laptop:     860px !default;
 // ── Header ──
 .site-header {
   border-top: none;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   padding: 0;
+  background: $text-color;
 
   .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 3.6rem;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
+    min-height: 4.2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 }
 
-// Brand: lab name + IIT Ropar badge
+// Brand: both logos side by side
 .header-brand {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   flex-shrink: 0;
+  text-decoration: none;
+
+  &:hover { text-decoration: none; }
 }
 
-.site-title {
-  float: none;
-  line-height: 1.2;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  font-size: 1.05rem;
-  flex-shrink: 0;
-  text-decoration: none !important;
+.header-vled-logo {
+  height: 44px;
+  width: auto;
+  display: block;
+  mix-blend-mode: lighten;
+}
 
-  &, &:visited {
-    color: $text-color;
-  }
+.header-divider {
+  display: block;
+  width: 1px;
+  height: 30px;
+  background: rgba(255,255,255,0.2);
+  flex-shrink: 0;
 }
 
 .header-iit-logo {
-  height: 36px;
-  width: 36px;
+  height: 44px;
+  width: 44px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
+  mix-blend-mode: lighten;
 }
 
 .site-nav {
-  float: none;          // cancel _layout.scss float:right
+  float: none;
   line-height: 1;
 
-  // Desktop: horizontal pill row
   .trigger {
     clear: none;
     display: flex;
@@ -115,33 +120,64 @@ $on-laptop:     860px !default;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     font-weight: 500;
-    color: $grey-color;
+    color: rgba(255,255,255,0.55);
 
     &:hover {
-      color: $text-color;
+      color: #f9f9f7;
       text-decoration: none;
     }
+  }
+
+  .dropdown-content {
+    background-color: #2a2a2a;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
   }
 
   .dropdown-content a {
     font-size: 0.82rem;
     letter-spacing: 0.02em;
     text-transform: none;
-    color: $text-color;
+    color: rgba(255,255,255,0.75);
+
+    &:hover { background: rgba(255,255,255,0.07); color: #f9f9f7; }
+  }
+
+  .dropdown:hover .dropbtn {
+    color: #f9f9f7;
+    background-color: rgba(255,255,255,0.07);
   }
 
   .nav-active {
-    color: $text-color !important;
+    color: #f9f9f7 !important;
     font-weight: 600;
-    border-bottom: 2px solid $text-color;
+    border-bottom: 2px solid rgba(255,255,255,0.6);
     padding-bottom: 1px;
   }
 
-  // Mobile: override trigger to flex-column when hamburger is checked
+  // Mobile
   @include media-query($on-palm) {
-    input ~ .trigger {
-      display: none;
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    background-color: #2a2a2a;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 5px;
+
+    label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
+
+    .menu-icon {
+      display: block;
+      float: right;
+      width: 36px;
+      height: 26px;
+      line-height: 0;
+      padding-top: 10px;
+      text-align: center;
+      svg { fill: rgba(255,255,255,0.7); }
     }
+
+    input ~ .trigger { clear: both; display: none; }
 
     input:checked ~ .trigger {
       display: flex;
@@ -151,10 +187,36 @@ $on-laptop:     860px !default;
       padding-bottom: 5px;
     }
 
-    .dropdown {
-      flex-direction: column;
-      align-items: flex-end;
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+      margin-left: 20px;
+      &:not(:last-child) { margin-right: 0; }
     }
+
+    .dropdown { flex-direction: column; align-items: flex-end; }
+
+    .dropbtn {
+      display: block;
+      padding: 5px 10px;
+      text-align: right;
+      margin-left: 20px;
+      cursor: pointer;
+      &:not(:last-child) { margin-right: 0; }
+    }
+
+    .dropdown-content {
+      position: static;
+      display: none;
+      box-shadow: none;
+      border: none;
+      background: transparent;
+    }
+
+    .dropdown-content a { padding: 5px 10px; margin-left: 20px; text-align: right; }
+
+    .dropdown-trigger:checked ~ .dropdown-content { display: block; }
+    &:hover .dropdown-content { display: none; }
   }
 }
 
@@ -453,7 +515,7 @@ table {
 // Hero — dark opening
 .home-hero {
   background: $text-color;
-  padding: 4rem 0 4rem;
+  padding: 2.5rem 0 3rem;
 
   .home-eyebrow {
     font-size: 0.75rem;
@@ -467,12 +529,13 @@ table {
   }
 
   .home-title {
-    font-size: 3.2rem;
-    font-weight: 600;
-    letter-spacing: -0.04em;
-    line-height: 1.05;
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
     color: #f9f9f7;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
+    max-width: 560px;
   }
 
   .home-tagline {

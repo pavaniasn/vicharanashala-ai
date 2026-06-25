@@ -6,8 +6,7 @@ permalink: /
 
 <section class="home-hero">
   <div class="home-inner">
-    <img src="{{ site.baseurl }}/assets/images/vicharanashala-logo-dark.png" alt="Vicharanashala" class="hero-logo">
-    <p class="home-tagline">Designing for learning at scale.</p>
+    <h1 class="home-title">Designing for learning at scale.</h1>
     <a href="#find-your-path" class="hero-cta">Find what's for you →</a>
     <div class="hero-stats-row">
       <div class="hero-stat">
