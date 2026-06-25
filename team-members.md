@@ -19,7 +19,7 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Prof. Sudarshan Iyengar</div>
         <div class="team-role">Principal Investigator &amp; Group Lead</div>
-        <p class="team-bio">Educator, researcher, and computing enthusiast with 400+ popular science talks and NPTEL courses reaching 9,00,000+ students. Founding faculty of the IIT Madras BS Programme. Director of Annam.AI and Head Coordinator of the Minor in AI initiative.</p>
+        <p class="team-bio">Educator and researcher whose NPTEL courses have reached 9,00,000+ students. Director of Annam.AI and founding faculty of the IIT Madras BS Programme.</p>
         <div class="team-tags">
           <span class="team-tag">Research Direction</span>
           <span class="team-tag">GuruSetu</span>
@@ -33,7 +33,7 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Dr. Pavani Ayinampudi</div>
         <div class="team-role">Learning Innovation &amp; Process Architect</div>
-        <p class="team-bio">Fulbright Scholar and Harvard Ed.M. Moved from life sciences into education drawn by what she saw in government college classrooms — students with more grit than opportunity. Designs learning systems that hold for teachers and institutions.</p>
+        <p class="team-bio">Fulbright Scholar and Harvard Ed.M. who moved from life sciences into education to design learning systems that actually hold — for teachers, institutions, and the people they serve.</p>
         <div class="team-tags">
           <span class="team-tag">GuruSetu</span>
           <span class="team-tag">CBPAI</span>
@@ -50,7 +50,7 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Prakash Hegade</div>
         <div class="team-role">Instruction Systems Scientist</div>
-        <p class="team-bio">15 years of teaching and 5 years of industry experience. Works at the intersection of problem-based learning and AI in education. AI Master for multiple IIT Ropar programs.</p>
+        <p class="team-bio">20 years across teaching and industry, working at the intersection of problem-based learning and AI in education.</p>
         <div class="team-tags">
           <span class="team-tag">Course Design</span>
           <span class="team-tag">FDP Delivery</span>
@@ -90,7 +90,7 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Rohit Sharma</div>
         <div class="team-role">Research Scholar</div>
-        <p class="team-bio">Focused on classroom engagement and tools that enhance live learning. Builds solutions for real-world problems in education.</p>
+        <p class="team-bio">Focused on classroom engagement tools that enhance live learning and real-world problems in education.</p>
         <div class="team-tags">
           <span class="team-tag">Spandan</span>
           <span class="team-tag">Vi-Slides</span>
@@ -107,7 +107,7 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Jinal Gupta</div>
         <div class="team-role">Project Associate &amp; Aspiring Research Scholar</div>
-        <p class="team-bio">Works at the intersection of AI and academic support systems at Vicharanashala and Annam.AI, IIT Ropar.</p>
+        <p class="team-bio">Project Associate at Vicharanashala and Annam.AI, working on AI-powered academic support systems.</p>
         <div class="team-tags">
           <span class="team-tag">Tenali</span>
           <span class="team-tag">Vi-Sakha</span>
