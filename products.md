@@ -4,7 +4,7 @@ title: Products
 permalink: /products/
 ---
 
-Eight tools built to solve verified problems in learning — each one emerged from a research question, not a feature list.
+Nine tools built to solve verified problems in learning — each one emerged from a research question, not a feature list.
 
 <div class="product-grid">
 
@@ -55,6 +55,13 @@ Eight tools built to solve verified problems in learning — each one emerged fr
     <div class="product-card-name">Vi-Notes</div>
     <div class="product-card-desc">Authorship authenticity verification platform. Addresses AI-generated content in academic writing.</div>
     <span class="product-card-tag">In Development</span>
+  </div>
+
+  <div class="product-card">
+    <div class="product-card-icon-wrap"><i class="ph ph-code product-card-icon"></i></div>
+    <div class="product-card-name">PyBe</div>
+    <div class="product-card-desc">Content coming soon.</div>
+    <span class="product-card-tag">Coming Soon</span>
   </div>
 
   <a href="https://tenali.fun" class="product-card" target="_blank" rel="noopener">
