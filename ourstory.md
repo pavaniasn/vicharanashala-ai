@@ -92,6 +92,52 @@ timeline:
   </div>
 </div>
 
+<div class="story-reach">
+  <p class="story-label"><i class="ph ph-map-pin"></i> Our Reach</p>
+  <h2 class="story-section-h">Across India, city by city.</h2>
+  <p class="story-reach-desc">Faculty reached through CBPAI and GuruSetu programs — {{ site.data.reach_cities | size }} cities across 28 states and union territories.</p>
+  <div class="story-reach-legend">
+    <span class="reach-legend-item"><span class="reach-dot reach-dot-faculty"></span> Faculty</span>
+    <span class="reach-legend-item"><span class="reach-dot reach-dot-student"></span> Students</span>
+  </div>
+  <div id="reach-map"></div>
+</div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WPeE=" crossorigin=""></script>
+
+<script>
+var cities = [
+  {% for city in site.data.reach_cities %}
+  { name: "{{ city.city }}", state: "{{ city.state }}", lat: {{ city.lat }}, lng: {{ city.lng }}, type: "{{ city.type }}" }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+var map = L.map('reach-map', {
+  center: [22.5, 82.0],
+  zoom: 5,
+  scrollWheelZoom: false,
+  zoomControl: true
+});
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 19
+}).addTo(map);
+
+var facultyStyle = { radius: 7, fillColor: '#e07020', color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
+var studentStyle = { radius: 7, fillColor: '#3ab7bf', color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
+var bothStyle    = { radius: 8, fillColor: '#8a5ab7', color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
+
+cities.forEach(function(c) {
+  var style = c.type === 'student' ? studentStyle : c.type === 'both' ? bothStyle : facultyStyle;
+  L.circleMarker([c.lat, c.lng], style)
+    .bindTooltip('<strong>' + c.name + '</strong><br>' + c.state, { direction: 'top', offset: [0, -6] })
+    .addTo(map);
+});
+</script>
+
 <div class="story-timeline-intro">
   <p class="story-label"><i class="ph ph-clock-counter-clockwise"></i> The Timeline</p>
   <h2 class="story-section-h">How we got here.</h2>

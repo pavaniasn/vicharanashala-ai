@@ -1175,6 +1175,42 @@ table {
 .process-item:nth-child(3) { transition-delay: 0.16s; }
 .process-item:nth-child(4) { transition-delay: 0.24s; }
 
+// Reach map
+.story-reach { padding: 3rem 0; border-bottom: 1px solid #e2e2de; margin-bottom: 3.5rem; }
+
+.story-reach-desc { font-size: 0.95rem; color: #767676; margin-bottom: 1.2rem; }
+
+.story-reach-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.82rem;
+  color: #444;
+}
+
+.reach-legend-item { display: flex; align-items: center; gap: 0.4rem; }
+
+.reach-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1.5px solid #fff;
+  box-shadow: 0 0 0 1px #ccc;
+}
+
+.reach-dot-faculty { background: #e07020; }
+.reach-dot-student { background: #3ab7bf; }
+
+#reach-map {
+  width: 100%;
+  height: 480px;
+  border-radius: 6px;
+  border: 1px solid #e2e2de;
+
+  @include media-query($on-palm) { height: 320px; }
+}
+
 // Hero logo
 .hero-logo {
   height: 130px;
