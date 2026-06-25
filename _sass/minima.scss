@@ -1178,6 +1178,13 @@ table {
   letter-spacing: 0.02em;
 }
 
+.testimonial-caption {
+  font-size: 0.82rem;
+  color: $grey-color;
+  margin-top: 0.9rem;
+  text-align: center;
+}
+
 // ── Scroll animations ──
 .fade-up {
   opacity: 0;
