@@ -16,7 +16,7 @@ Three audiences: students, faculty, government/funders.
 **SCSS validation only:** `sass --no-source-map _sass/minima.scss /dev/null`
 Pre-existing `@import` and `darken()`/`lighten()` deprecation warnings are from the minima base theme — not errors, not our problem to fix.
 
-**GitHub Pages constraints:** Only whitelisted Jekyll plugins. We use `jekyll-feed` (whitelisted). No `_plugins/` directory. All custom code goes in `_layouts/`, `_includes/`, `_sass/`, `assets/` — all standard and supported.
+**GitHub Pages constraints:** Only whitelisted Jekyll plugins. We use `jekyll-feed` (whitelisted). No `_plugins/` directory. All custom code goes in `_layouts/`, `_includes/`, `_sass/`, `assets/`, `_data/` — all standard and supported. Third-party JS (Leaflet.js etc.) loads from CDN with integrity hashes — no installation needed.
 
 ---
 
@@ -46,13 +46,15 @@ If it returns output, CSS is compiling correctly.
 - Grey (text muted): `#767676`
 - Border: `#e2e2de`
 - Dark text on dark: `#f9f9f7`
+- Brand orange (logo icon, faculty map pins): `#e07020`
+- Brand teal (logo icon, student map pins): `#3ab7bf`
 
 **Typography:** Inter (loaded via Google Fonts in head.html), 17px base, 1.72 line-height
 
 **Max widths:** Home sections use `.home-inner` (900px). Page layout wrapper is 860px. Timeline is 680px.
 
 **Key layout classes:**
-- `.home-hero` — full-width dark section (background `#1a1a1a`)
+- `.home-hero` — compact dark band (background `#1a1a1a`, padding 2.5rem/3rem)
 - `.home-section.hs-light` — off-white section
 - `.home-section.hs-mid` — grey section
 - `.home-section.hs-dark` — dark section
@@ -61,17 +63,20 @@ If it returns output, CSS is compiling correctly.
 - Icons: Phosphor Icons (`ph ph-*`), loaded via CDN in head.html
 
 **Logos:**
-- `assets/images/vicharanashala-logo-dark.png` — dark background logo. Use `mix-blend-mode: lighten` only on dark backgrounds (hero). CANNOT be used cleanly on light backgrounds without a transparent PNG.
-- `assets/images/iit-ropar-logo.png` — white square background, badge is circular. Use `border-radius: 50%; object-fit: cover` to clip to circle for header use.
+- `assets/images/vicharanashala-logo-dark.png` — dark background logo. Use `mix-blend-mode: lighten` only on dark backgrounds. CANNOT be used cleanly on light backgrounds without a transparent PNG. Pending: get transparent-background version from logo designer.
+- `assets/images/iit-ropar-logo.png` — white square background, badge is circular.
+- Both logos currently NOT in the header — to be placed manually once a transparent Vicharanashala PNG is available.
 
 ---
 
 ## Site structure
 
 **Layouts:**
-- `home.html` — used only for index.md. No `.wrapper` constraint, footer included.
-- `default.html` — base layout with `<main class="page-content"><div class="wrapper">`. Footer included. Use this for full-control inner pages.
+- `home.html` — used only for index.md. No `.wrapper` constraint. No footer (removed).
+- `default.html` — base layout with `<main class="page-content"><div class="wrapper">`. No footer (removed). Use this for full-control inner pages.
 - `page.html` — extends default, auto-generates `<h1>` from front matter `title:`. Use only for simple content pages.
+
+**Footer:** Removed from all layouts. `footer.html` include still exists with IIT Ropar logo + LinkedIn if needed later.
 
 **Navigation (hardcoded in `_includes/header.html`):**
 - About → Our Story, Team
@@ -81,9 +86,11 @@ If it returns output, CSS is compiling correctly.
 
 `header_pages` in `_config.yml` is no longer used for rendering — nav is now hardcoded. Keep it for reference but it doesn't control the nav.
 
+**Dropdown fix:** `.dropdown-content` must have `top: 100%` and `z-index: 1000` to prevent clipping into browser bar. Already set — do not remove.
+
 **Pages built:**
-- `index.md` — Home (dark hero, Start Here, Vision, Challenges, What We Built, How We Work, Testimonials, Events strip)
-- `ourstory.md` — Our Story (intro hero, lab space section, timeline)
+- `index.md` — Home: compact dark hero (tagline + CTA + stats), Start Here, Vision, Challenges, What We Built, How We Work, Testimonials (placeholder), Events strip
+- `ourstory.md` — Our Story: intro hero, lab space section (photo placeholder), reach map (Leaflet.js), timeline
 - `products.md` — 8-product grid + research narrative
 - `lab_initiatives.md` — Summership, Global Speaker Series, V-Talks
 - `national_initiatives.md` — GuruSetu, CBPAI
@@ -91,21 +98,41 @@ If it returns output, CSS is compiling correctly.
 - `research_publications.md` — placeholder structure
 - `team-members.md` — team page
 - `vichara_logs.md` — Vi-Chintan live, Vi-Prayoga and Vi-Reports coming
-- `contact.md` — contact page
+- `contact.md` — address, email (dled@iitrpr.ac.in), phone, LinkedIn
 - `events.md` — Google Calendar embed (placeholder ID needs replacing)
 - `for_students.md`, `for_faculty.md`, `for_partners.md` — audience landing pages
 
 ---
 
+## Reach map (`ourstory.md`)
+
+Built with **Leaflet.js** (CDN, no API key, fully GitHub Pages compatible).
+Basemap: CARTO light (clean, minimal).
+
+**Data file:** `_data/reach_cities.yml`
+- Each entry: `city`, `state`, `lat`, `lng`, `type` (faculty / student / both)
+- 150+ faculty cities loaded from CBPAI FDP cohorts 1–16 (Google Sheet)
+- Student cities: not yet added — waiting on data from Pavani
+- **To add a city:** edit `_data/reach_cities.yml` directly on GitHub — no code knowledge needed
+
+**Pin colours:**
+- Faculty: orange `#e07020`
+- Students: teal `#3ab7bf`
+- Both: purple `#8a5ab7`
+
+---
+
 ## Content pending (needs Pavani's input, do not invent)
 
-- **Lab space photo** (`ourstory.md`) — placeholder exists, needs a real photo dropped in `assets/images/`
+- **Lab space photo** (`ourstory.md`) — placeholder exists, drop real photo in `assets/images/`
 - **Testimonials** (`index.md`) — 3 placeholder cards, needs real student/faculty quotes
 - **Events calendar** (`events.md`) — replace `REPLACE_WITH_CALENDAR_ID` with real Google Calendar ID, set calendar to public
 - **Openings form links** (`openings.md`) — Register/Interest buttons need real form URLs
 - **Vi-Prayoga and Vi-Reports** (`vichara_logs.md`) — sections exist, content coming
 - **Research Publications** (`research_publications.md`) — needs domain framing + real papers
-- **Reach map** (`ourstory.md`) — use Leaflet.js (CDN, no API key, GitHub Pages compatible). Waiting on city list from Pavani. Plan: pins per city, data as a JS array in the page.
+- **Student cities for reach map** — add to `_data/reach_cities.yml` with `type: student`
+- **Transparent logo PNG** — needed to place Vicharanashala logo cleanly in the light header
+- **Video links** — Frame.io videos to be uploaded to YouTube, then embedded via `_includes/youtube.html`
 
 ---
 
@@ -129,3 +156,14 @@ If it returns output, CSS is compiling correctly.
 - Do not commit binary files or `assets/images/` unless they are new logos/images being added
 - Do not invent content (quotes, lab details, team names) — ask Pavani instead
 - Do not add `parent:` front matter to pages for nav grouping — nav is now hardcoded in header.html
+- Do not remove `top: 100%` or `z-index: 1000` from `.dropdown-content` — fixes browser bar clipping bug
+- Do not suggest data-in-page solutions for anything that needs future editing — always use `_data/` files so non-technical editors can update via GitHub browser
+
+---
+
+## Proactive reminders (read before starting any feature)
+
+- Pavani is non-technical — always recommend the most maintainable approach upfront, not after being asked
+- Before finishing any feature that stores data or content, ask: "Who updates this later, and can they do it without touching code?"
+- If building something with editable data (lists, locations, quotes, links), default to `_data/` YAML files
+- If adding third-party libraries, use CDN with integrity hash — no npm, no installation
