@@ -812,10 +812,21 @@ table {
     color: $text-color;
   }
 
+  .product-card-icon-wrap {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #efefec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    flex-shrink: 0;
+  }
+
   .product-card-icon {
-    font-size: 2.2rem;
-    color: $grey-color;
-    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    color: #1a1a1a;
   }
 
   .product-card-name {

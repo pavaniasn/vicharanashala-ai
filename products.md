@@ -8,55 +8,54 @@ Seven tools built to solve verified problems in learning — each one emerged fr
 
 <div class="product-grid">
 
-  <a href="{{ site.baseurl }}/projects/vibe/" class="product-card">
-    <i class="ph ph-video product-card-icon"></i>
+  <a href="https://vibe.vicharanashala.ai" class="product-card" target="_blank" rel="noopener">
+    <div class="product-card-icon-wrap"><i class="ph ph-brain product-card-icon"></i></div>
     <div class="product-card-name">ViBe</div>
     <div class="product-card-desc">AI-enabled asynchronous learning platform. Verified, active learning for online education.</div>
     <span class="product-card-tag">Deployed</span>
   </a>
 
-  <a href="{{ site.baseurl }}/projects/samagama/" class="product-card">
-    <i class="ph ph-users-three product-card-icon"></i>
+  <a href="https://samagama.in" class="product-card" target="_blank" rel="noopener">
+    <div class="product-card-icon-wrap"><i class="ph ph-door-open product-card-icon"></i></div>
     <div class="product-card-name">Samagama + Yaksha</div>
     <div class="product-card-desc">Internship management at national scale — fully automated, zero gatekeeping.</div>
     <span class="product-card-tag">Deployed</span>
   </a>
 
-  <a href="{{ site.baseurl }}/projects/spandan/" class="product-card">
-    <i class="ph ph-chalkboard-teacher product-card-icon"></i>
+  <div class="product-card">
+    <div class="product-card-icon-wrap"><i class="ph ph-pulse product-card-icon"></i></div>
     <div class="product-card-name">Spandan</div>
     <div class="product-card-desc">Real-time classroom engagement. Listens to live lectures, auto-generates contextual questions.</div>
     <span class="product-card-tag">Pilot</span>
-  </a>
+  </div>
 
-  <a href="{{ site.baseurl }}/projects/vi-slides/" class="product-card">
-    <i class="ph ph-presentation product-card-icon"></i>
+  <div class="product-card">
+    <div class="product-card-icon-wrap"><i class="ph ph-chat-circle-dots product-card-icon"></i></div>
     <div class="product-card-name">Vi-Slides</div>
     <div class="product-card-desc">Question-driven, AI-assisted teaching support. Generates slide-linked discussion prompts.</div>
     <span class="product-card-tag">Research Stage</span>
-  </a>
+  </div>
 
-  <a href="{{ site.baseurl }}/projects/pes/" class="product-card">
-    <i class="ph ph-check-square product-card-icon"></i>
+  <div class="product-card">
+    <div class="product-card-icon-wrap"><i class="ph ph-scales product-card-icon"></i></div>
     <div class="product-card-name">PES</div>
     <div class="product-card-desc">Intelligent peer evaluation with statistical quality control and anonymity safeguards.</div>
     <span class="product-card-tag">In Development</span>
-  </a>
+  </div>
 
-  <a href="{{ site.baseurl }}/projects/spurti/" class="product-card">
-    <i class="ph ph-chart-line-up product-card-icon"></i>
+  <div class="product-card">
+    <div class="product-card-icon-wrap"><i class="ph ph-stairs product-card-icon"></i></div>
     <div class="product-card-name">Spurti</div>
     <div class="product-card-desc">Gamified progress tracking for self-regulated learning. Builds learner accountability over time.</div>
     <span class="product-card-tag">Pilot</span>
-  </a>
+  </div>
 
-  <a href="{{ site.baseurl }}/projects/vi-notes/" class="product-card">
-    <i class="ph ph-pencil-line product-card-icon"></i>
+  <div class="product-card">
+    <div class="product-card-icon-wrap"><i class="ph ph-fingerprint product-card-icon"></i></div>
     <div class="product-card-name">Vi-Notes</div>
     <div class="product-card-desc">Authorship authenticity verification platform. Addresses AI-generated content in academic writing.</div>
     <span class="product-card-tag">In Development</span>
-  </a>
-
+  </div>
 
 </div>
 
