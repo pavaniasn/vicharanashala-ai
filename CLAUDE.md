@@ -105,6 +105,7 @@ If it returns output, CSS is compiling correctly.
 - **Openings form links** (`openings.md`) — Register/Interest buttons need real form URLs
 - **Vi-Prayoga and Vi-Reports** (`vichara_logs.md`) — sections exist, content coming
 - **Research Publications** (`research_publications.md`) — needs domain framing + real papers
+- **Reach map** (`ourstory.md`) — use Leaflet.js (CDN, no API key, GitHub Pages compatible). Waiting on city list from Pavani. Plan: pins per city, data as a JS array in the page.
 
 ---
 
