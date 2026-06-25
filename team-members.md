@@ -26,7 +26,7 @@ permalink: /team-members/
           <span class="team-tag">CBPAI</span>
         </div>
         <div class="team-links">
-          <a href="https://www.linkedin.com/in/sudarshan-iyengar-3560b8145/" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/sudarshan-iyengar-3560b8145/" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> sudarshan-iyengar</a>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@ permalink: /team-members/
           <span class="team-tag">Summership</span>
         </div>
         <div class="team-links">
-          <a href="https://www.linkedin.com/in/pavani-ayinampudi/" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/pavani-ayinampudi/" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> pavani-ayinampudi</a>
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@ permalink: /team-members/
           <span class="team-tag">Research</span>
         </div>
         <div class="team-links">
-          <a href="https://www.linkedin.com/in/prakash-hegade-16879917/" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+          <a href="https://www.linkedin.com/in/prakash-hegade-16879917/" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> prakash-hegade</a>
         </div>
       </div>
     </div>
@@ -99,8 +99,8 @@ permalink: /team-members/
           <span class="team-tag">Vi-Slides</span>
         </div>
         <div class="team-links">
-          <a href="https://www.linkedin.com/in/imrohitvk" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
-          <a href="https://github.com/imrohitvk" class="team-link team-link-gh" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/imrohitvk" class="team-link team-link-li" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> imrohitvk</a>
+          <a href="https://github.com/imrohitvk" class="team-link team-link-gh" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> imrohitvk</a>
         </div>
       </div>
     </div>
@@ -257,14 +257,13 @@ permalink: /team-members/
   text-decoration: none;
   letter-spacing: 0.02em;
   color: #767676;
-
-  &:hover { text-decoration: none; opacity: 0.8; }
-
-  i { font-size: 0.95rem; }
 }
-
+.team-link:hover { text-decoration: none; opacity: 0.75; }
+.team-link i { font-size: 0.95rem; }
 .team-link-li { color: #0A66C2; }
+.team-link-li:hover { color: #0A66C2; }
 .team-link-gh { color: #1a1a1a; }
+.team-link-gh:hover { color: #1a1a1a; }
 
 /* Operations section */
 .team-ops {
