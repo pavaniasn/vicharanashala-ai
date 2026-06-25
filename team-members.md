@@ -19,6 +19,7 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Prof. Sudarshan Iyengar</div>
         <div class="team-role">Principal Investigator &amp; Group Lead</div>
+        <p class="team-bio">Educator, researcher, and computing enthusiast with 400+ popular science talks and NPTEL courses reaching 9,00,000+ students. Founding faculty of the IIT Madras BS Programme. Director of Annam.AI and Head Coordinator of the Minor in AI initiative.</p>
         <div class="team-tags">
           <span class="team-tag">Research Direction</span>
           <span class="team-tag">GuruSetu</span>
@@ -32,10 +33,14 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Dr. Pavani Ayinampudi</div>
         <div class="team-role">Learning Innovation &amp; Process Architect</div>
+        <p class="team-bio">Fulbright Scholar and Harvard Ed.M. Moved from life sciences into education drawn by what she saw in government college classrooms — students with more grit than opportunity. Designs learning systems that hold for teachers and institutions.</p>
         <div class="team-tags">
           <span class="team-tag">GuruSetu</span>
           <span class="team-tag">CBPAI</span>
           <span class="team-tag">Summership</span>
+        </div>
+        <div class="team-links">
+          <a href="https://www.linkedin.com/in/pavani-ayinampudi/" class="team-link" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
         </div>
       </div>
     </div>
@@ -45,10 +50,14 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Prakash Hegade</div>
         <div class="team-role">Instruction Systems Scientist</div>
+        <p class="team-bio">15 years of teaching and 5 years of industry experience. Works at the intersection of problem-based learning and AI in education. AI Master for multiple IIT Ropar programs.</p>
         <div class="team-tags">
           <span class="team-tag">Course Design</span>
           <span class="team-tag">FDP Delivery</span>
           <span class="team-tag">Research</span>
+        </div>
+        <div class="team-links">
+          <a href="https://www.linkedin.com/in/prakash-hegade-16879917/" class="team-link" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
         </div>
       </div>
     </div>
@@ -81,9 +90,14 @@ permalink: /team-members/
       <div class="team-card-body">
         <div class="team-name">Rohit Sharma</div>
         <div class="team-role">Research Scholar</div>
+        <p class="team-bio">Focused on classroom engagement and tools that enhance live learning. Builds solutions for real-world problems in education.</p>
         <div class="team-tags">
           <span class="team-tag">Spandan</span>
           <span class="team-tag">Vi-Slides</span>
+        </div>
+        <div class="team-links">
+          <a href="https://www.linkedin.com/in/imrohitvk" class="team-link" target="_blank" rel="noopener"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+          <a href="https://github.com/imrohitvk" class="team-link" target="_blank" rel="noopener"><i class="ph ph-github-logo"></i> GitHub</a>
         </div>
       </div>
     </div>
@@ -92,9 +106,11 @@ permalink: /team-members/
       <div class="team-avatar" style="background:#2a2a2a; color:#f9f9f7;">JG</div>
       <div class="team-card-body">
         <div class="team-name">Jinal Gupta</div>
-        <div class="team-role">Research Scholar</div>
+        <div class="team-role">Project Associate &amp; Aspiring Research Scholar</div>
+        <p class="team-bio">Works at the intersection of AI and academic support systems at Vicharanashala and Annam.AI, IIT Ropar.</p>
         <div class="team-tags">
           <span class="team-tag">Tenali</span>
+          <span class="team-tag">Vi-Sakha</span>
         </div>
       </div>
     </div>
@@ -146,7 +162,7 @@ permalink: /team-members/
 
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.2rem;
 }
 
@@ -195,13 +211,21 @@ permalink: /team-members/
   font-size: 0.82rem;
   color: #767676;
   line-height: 1.4;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+
+.team-bio {
+  font-size: 0.84rem;
+  line-height: 1.6;
+  color: #444;
+  margin: 0 0 0.7rem 0;
 }
 
 .team-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
+  margin-bottom: 0.6rem;
 }
 
 .team-tag {
@@ -212,6 +236,28 @@ permalink: /team-members/
   background: #efefec;
   border-radius: 3px;
   padding: 0.15rem 0.5rem;
+}
+
+.team-links {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 0.3rem;
+}
+
+.team-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #767676;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+
+  &:hover { color: #1a1a1a; text-decoration: none; }
+
+  i { font-size: 0.9rem; }
 }
 
 /* Operations section */
