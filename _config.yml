@@ -22,5 +22,7 @@ header_pages:
   - contact.md
   - team-members.md
 
+linkedin_username: vicharanashala
+
 plugins:
   - jekyll-feed
