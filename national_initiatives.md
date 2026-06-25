@@ -3,7 +3,7 @@ layout: page
 title: National Initiatives
 page_title: National Initiatives
 parent: Initiatives
-permalink: /national_initiative/
+permalink: /national_initiatives/
 card_mode: generic
 ---
 
