@@ -12,7 +12,10 @@ Indian Institute of Technology, Ropar
 Rupnagar, Punjab 140001  
 
 ## Email
-vled@iitrpr.ac.in  
+dled@iitrpr.ac.in  
 
 ## Phone
 +91-1881-242175
+
+## LinkedIn
+[linkedin.com/company/vicharanashala](https://www.linkedin.com/company/vicharanashala)
