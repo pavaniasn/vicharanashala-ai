@@ -126,9 +126,9 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   maxZoom: 19
 }).addTo(map);
 
-var facultyStyle = { radius: 7, fillColor: '#e07020', color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
-var studentStyle = { radius: 7, fillColor: '#3ab7bf', color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
-var bothStyle    = { radius: 8, fillColor: '#8a5ab7', color: '#fff', weight: 1.5, opacity: 1, fillOpacity: 0.85 };
+var facultyStyle = { radius: 4, fillColor: '#e07020', color: '#fff', weight: 1, opacity: 1, fillOpacity: 0.85 };
+var studentStyle = { radius: 4, fillColor: '#3ab7bf', color: '#fff', weight: 1, opacity: 1, fillOpacity: 0.85 };
+var bothStyle    = { radius: 5, fillColor: '#8a5ab7', color: '#fff', weight: 1, opacity: 1, fillOpacity: 0.85 };
 
 cities.forEach(function(c) {
   var style = c.type === 'student' ? studentStyle : c.type === 'both' ? bothStyle : facultyStyle;
