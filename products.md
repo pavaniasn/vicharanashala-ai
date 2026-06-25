@@ -57,12 +57,6 @@ Seven tools built to solve verified problems in learning — each one emerged fr
     <span class="product-card-tag">In Development</span>
   </a>
 
-  <a href="{{ site.baseurl }}/projects/vi-sakha/" class="product-card">
-    <i class="ph ph-robot product-card-icon"></i>
-    <div class="product-card-name">Vi-Sakha</div>
-    <div class="product-card-desc">AI knowledge assistant for academic support. Learns from interactions to reduce redundant queries.</div>
-    <span class="product-card-tag">In Development</span>
-  </a>
 
 </div>
 

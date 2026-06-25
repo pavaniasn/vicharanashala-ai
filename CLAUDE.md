@@ -133,7 +133,7 @@ Basemap: CARTO light (clean, minimal).
 - **Student cities for reach map** — add to `_data/reach_cities.yml` with `type: student`
 - **Transparent logo PNG** — needed to place Vicharanashala logo cleanly in the light header
 - **Video links** — Frame.io videos to be uploaded to YouTube, then embedded via `_includes/youtube.html`
-- **Vi-Sakha** (`products.md`) — missing product, full write-up exists in old content doc (Google Doc 1pnLJH70dGHs_hlDkt7sexmMalfWaw0oT). AI academic support chatbot, 1200+ users, 1300+ queries resolved.
+- **Vi-Sakha** — removed from products.md (superseded by Samagama).
 - **Team page** — ops team bios needed for Atul, Harshdeep, Meenakshi Kalotra, Rajan Gupta. Roles for last 3 are placeholder — confirm with Pavani. All cards have photo placeholders; photos go in `assets/images/team/`.
 - **Team LinkedIn links** — Sudarshan: sudarshan-iyengar-3560b8145, Pavani: pavani-ayinampudi, Prakash: prakash-hegade-16879917, Rohit: imrohitvk — all live.
 - **Year recap video** — `Year_Recap_2.mp4` (72MB, local at `/Users/pavania/Downloads/Lab Footage/`). Upload to YouTube, share URL here. Goes on homepage between "How We Work" and Testimonials sections.
