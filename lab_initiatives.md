@@ -32,6 +32,11 @@ The program is explicitly designed to be inclusive. Tier 2 and Tier 3 institutio
 
 The program is affiliated with IIT Ropar and aligned with the lab's broader mandate under the NEP 2020 push for structured student development and research exposure.
 
+### What Participants Said
+
+{% include youtube.html id="o0ZWEf_irV4" %}
+<p class="testimonial-caption">Feedback from participants of the Vinternship Winter 2025 cohort.</p>
+
 ---
 
 ## **Global Speaker Series: A Dialogue Across Borders**
