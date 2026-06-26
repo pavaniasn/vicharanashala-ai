@@ -22,61 +22,78 @@ permalink: /products/
     </div>
   </div>
 
-  <a href="https://samagama.in" class="product-card" target="_blank" rel="noopener">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/samagama/" class="product-card-stretch" aria-label="Learn more about Samagama + Yaksha"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-door-open product-card-icon"></i></div>
     <div class="product-card-name">Samagama + Yaksha</div>
     <div class="product-card-desc">Internship management at national scale — fully automated, zero gatekeeping.</div>
-    <span class="product-card-tag">Deployed</span>
-  </a>
+    <div class="product-card-bottom">
+      <span class="product-card-tag">Deployed</span>
+      <a href="https://samagama.in" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+    </div>
+  </div>
 
-  <div class="product-card">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/spandan/" class="product-card-stretch" aria-label="Learn more about Spandan"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-pulse product-card-icon"></i></div>
     <div class="product-card-name">Spandan</div>
     <div class="product-card-desc">Real-time classroom engagement. Listens to live lectures, auto-generates contextual questions.</div>
-    <span class="product-card-tag">Pilot</span>
+    <div class="product-card-bottom">
+      <span class="product-card-tag">Pilot</span>
+      <a href="https://spandanam.vicharanashala.ai" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+    </div>
   </div>
 
-  <div class="product-card">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/vi-slides/" class="product-card-stretch" aria-label="Learn more about Vi-Slides"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-chat-circle-dots product-card-icon"></i></div>
     <div class="product-card-name">Vi-Slides</div>
     <div class="product-card-desc">Question-driven, AI-assisted teaching support. Generates slide-linked discussion prompts.</div>
     <span class="product-card-tag">Research Stage</span>
   </div>
 
-  <div class="product-card">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/pes/" class="product-card-stretch" aria-label="Learn more about PES"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-scales product-card-icon"></i></div>
     <div class="product-card-name">PES</div>
     <div class="product-card-desc">Intelligent peer evaluation with statistical quality control and anonymity safeguards.</div>
     <span class="product-card-tag">In Development</span>
   </div>
 
-  <div class="product-card">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/spurti/" class="product-card-stretch" aria-label="Learn more about Spurti"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-stairs product-card-icon"></i></div>
     <div class="product-card-name">Spurti</div>
     <div class="product-card-desc">Gamified progress tracking for self-regulated learning. Builds learner accountability over time.</div>
     <span class="product-card-tag">Pilot</span>
   </div>
 
-  <div class="product-card">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/vi-notes/" class="product-card-stretch" aria-label="Learn more about Vi-Notes"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-fingerprint product-card-icon"></i></div>
     <div class="product-card-name">Vi-Notes</div>
     <div class="product-card-desc">Authorship authenticity verification platform. Addresses AI-generated content in academic writing.</div>
     <span class="product-card-tag">In Development</span>
   </div>
 
-  <div class="product-card">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/pybe/" class="product-card-stretch" aria-label="Learn more about PyBe"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-code product-card-icon"></i></div>
     <div class="product-card-name">PyBe</div>
     <div class="product-card-desc">A case study oriented Python tutor that helps you talk to machines, in human language.</div>
     <span class="product-card-tag">Coming Soon</span>
   </div>
 
-  <a href="https://tenali.fun" class="product-card" target="_blank" rel="noopener">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/tenali/" class="product-card-stretch" aria-label="Learn more about Tenali"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-sparkle product-card-icon"></i></div>
     <div class="product-card-name">Tenali</div>
     <div class="product-card-desc">Learning the fun way — foundational numeracy to advanced algebra, taught through a uniquely engaging approach.</div>
-    <span class="product-card-tag">Deployed</span>
-  </a>
+    <div class="product-card-bottom">
+      <span class="product-card-tag">Deployed</span>
+      <a href="https://tenali.fun" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+    </div>
+  </div>
 
 </div>
 
