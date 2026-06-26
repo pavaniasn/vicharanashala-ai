@@ -18,7 +18,10 @@ permalink: /products/
     <div class="product-card-desc">AI-enabled asynchronous learning platform. Verified, active learning for online education.</div>
     <div class="product-card-bottom">
       <span class="product-card-tag">Deployed</span>
-      <a href="https://vibe.vicharanashala.ai" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+      <div class="product-card-links">
+        <a href="https://vibe.vicharanashala.ai" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+        <a href="https://github.com/vicharanashala/vibe" target="_blank" rel="noopener" class="product-github-link"><i class="ph ph-github-logo"></i> GitHub</a>
+      </div>
     </div>
   </div>
 
@@ -40,7 +43,10 @@ permalink: /products/
     <div class="product-card-desc">Real-time classroom engagement. Listens to live lectures, auto-generates contextual questions.</div>
     <div class="product-card-bottom">
       <span class="product-card-tag">Pilot</span>
-      <a href="https://spandanam.vicharanashala.ai" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+      <div class="product-card-links">
+        <a href="https://spandanam.vicharanashala.ai" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+        <a href="https://github.com/vicharanashala/spandan" target="_blank" rel="noopener" class="product-github-link"><i class="ph ph-github-logo"></i> GitHub</a>
+      </div>
     </div>
   </div>
 
@@ -65,7 +71,10 @@ permalink: /products/
     <div class="product-card-icon-wrap"><i class="ph ph-stairs product-card-icon"></i></div>
     <div class="product-card-name">Spurti</div>
     <div class="product-card-desc">Gamified progress tracking for self-regulated learning. Builds learner accountability over time.</div>
-    <span class="product-card-tag">Pilot</span>
+    <div class="product-card-bottom">
+      <span class="product-card-tag">Pilot</span>
+      <a href="https://github.com/vicharanashala/spurti" target="_blank" rel="noopener" class="product-github-link"><i class="ph ph-github-logo"></i> GitHub</a>
+    </div>
   </div>
 
   <div class="product-card product-card-linked">
@@ -91,7 +100,10 @@ permalink: /products/
     <div class="product-card-desc">Learning the fun way — foundational numeracy to advanced algebra, taught through a uniquely engaging approach.</div>
     <div class="product-card-bottom">
       <span class="product-card-tag">Deployed</span>
-      <a href="https://tenali.fun" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+      <div class="product-card-links">
+        <a href="https://tenali.fun" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+        <a href="https://github.com/vicharanashala/tenali" target="_blank" rel="noopener" class="product-github-link"><i class="ph ph-github-logo"></i> GitHub</a>
+      </div>
     </div>
   </div>
 

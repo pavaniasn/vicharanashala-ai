@@ -891,6 +891,12 @@ table {
   margin-top: auto;
 }
 
+.product-card-links {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 .product-ext-link {
   position: relative;
   z-index: 2;
@@ -898,6 +904,25 @@ table {
   color: $grey-color;
   text-decoration: none;
   white-space: nowrap;
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
+.product-github-link {
+  position: relative;
+  z-index: 2;
+  font-size: 0.72rem;
+  color: $grey-color;
+  text-decoration: none;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+
+  i { font-size: 0.85rem; }
 
   &:hover {
     color: $text-color;
