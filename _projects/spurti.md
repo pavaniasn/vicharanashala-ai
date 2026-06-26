@@ -90,4 +90,4 @@ It represents a shift from simple tracking to a more complete ecosystem of motiv
 
 ---
 
-Experience learning that keeps progress visible and accountability connected.
+Experience learning that keeps progress visible and accountability connected. The source code is openly available on [GitHub ↗](https://github.com/vicharanashala/spurti){:target="_blank"}.

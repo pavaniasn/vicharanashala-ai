@@ -94,4 +94,4 @@ It is not just a tool—but a step toward redefining how learning happens in the
 
 ---
 
-Experience the engaging learning at [spandan.vicharanashala.ai](https://spandanam.vicharanashala.ai){:target="_blank"}.
+Experience the engaging learning at [spandan.vicharanashala.ai](https://spandanam.vicharanashala.ai){:target="_blank"}. The source code is openly available on [GitHub ↗](https://github.com/vicharanashala/spandan){:target="_blank"}.

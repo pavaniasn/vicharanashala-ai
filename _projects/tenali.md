@@ -19,4 +19,4 @@ Tenali covers the full journey from foundational numeracy through to algebra, us
 
 ---
 
-Explore Tenali at [tenali.fun](https://tenali.fun){:target="_blank"}.
+Explore Tenali at [tenali.fun](https://tenali.fun){:target="_blank"}. The source code is openly available on [GitHub ↗](https://github.com/vicharanashala/tenali){:target="_blank"}.
