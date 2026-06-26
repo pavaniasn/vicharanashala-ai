@@ -11,12 +11,16 @@ permalink: /products/
 
 <div class="product-grid">
 
-  <a href="https://vibe.vicharanashala.ai" class="product-card" target="_blank" rel="noopener">
+  <div class="product-card product-card-linked">
+    <a href="{{ site.baseurl }}/projects/vibe/" class="product-card-stretch" aria-label="Learn more about ViBe"></a>
     <div class="product-card-icon-wrap"><i class="ph ph-brain product-card-icon"></i></div>
     <div class="product-card-name">ViBe</div>
     <div class="product-card-desc">AI-enabled asynchronous learning platform. Verified, active learning for online education.</div>
-    <span class="product-card-tag">Deployed</span>
-  </a>
+    <div class="product-card-bottom">
+      <span class="product-card-tag">Deployed</span>
+      <a href="https://vibe.vicharanashala.ai" target="_blank" rel="noopener" class="product-ext-link">Visit Platform ↗</a>
+    </div>
+  </div>
 
   <a href="https://samagama.in" class="product-card" target="_blank" rel="noopener">
     <div class="product-card-icon-wrap"><i class="ph ph-door-open product-card-icon"></i></div>

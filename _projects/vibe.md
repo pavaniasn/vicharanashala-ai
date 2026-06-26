@@ -64,4 +64,12 @@ Industry norm for self-paced online courses: under 10%. ViBe: 3.5× that — ver
 
 ---
 
+## **Learner Feedback**
+
+What does it feel like to learn on ViBe? Here is a glimpse from the platform.
+
+{% include video-thumb.html id="AWuA4b9dUpM" title="ViBe — Learner Feedback" %}
+
+---
+
 Experience the rhythm of learning today at [vibe.vicharanashala.ai](https://vibe.vicharanashala.ai){:target="_blank"}.
