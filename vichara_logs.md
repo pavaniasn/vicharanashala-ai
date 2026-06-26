@@ -2,6 +2,8 @@
 layout: page
 title: Vichara Logs
 permalink: /vichara_logs/
+quote: "The unexamined life is not worth living."
+quote_author: "Socrates"
 ---
 
 **Vichara Logs** is a curated collection of thoughts, experiments, and documented practices centered around learning and inquiry. It moves from reflection (**Vi-Chintan**), to exploration (**Vi-Prayoga**), to structured documentation (**Vi-Reports**), capturing the full journey of thinking and doing.

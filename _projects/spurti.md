@@ -1,15 +1,16 @@
 ---
 layout: page
-title: HP Dashboard
-page_title: HP Dashboard - Gamified Learning with LTI
+title: Spurti
+page_title: Spurti - Gamified Progress for Self-Regulated Learning
 parent: Products
 order: 5
+permalink: /projects/spurti/
 ---
 
 *Where progress is visible and learning stays accountable,*  
-*HP turns every milestone into a step toward self-regulation.*
+*Spurti turns every milestone into a step toward self-regulation.*
 
-Developed at the Vicharanashala Lab, the HP Dashboard is a gamified learning and analytics system designed to strengthen self-regulated learning through visible progress, point-based accountability, and structured feedback. With LTI integration, the dashboard can connect to external learning platforms and course environments so that engagement tracking, milestones, and learner feedback remain part of a unified instructional experience.
+Developed at the Vicharanashala Lab, Spurti is a gamified learning and analytics system designed to strengthen self-regulated learning through visible progress, point-based accountability, and structured feedback. Currently piloted in live classroom settings, Spurti is built to develop learner accountability over time — making effort visible and turning consistent engagement into a habit. With LTI integration, it connects to external learning platforms so that engagement tracking, milestones, and learner feedback remain part of a unified instructional experience.
 
 ---
 
@@ -89,4 +90,4 @@ It represents a shift from simple tracking to a more complete ecosystem of motiv
 
 ---
 
-Experience learning that keeps progress visible and accountability connected.
+Experience learning that keeps progress visible and accountability connected. The source code is openly available on [GitHub ↗](https://github.com/vicharanashala/spurti){:target="_blank"}.

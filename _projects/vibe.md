@@ -17,7 +17,9 @@ Officially launched on 29th July 2025 by Honourable Education Minister Shri Dhar
 
 ## **About**
 
-ViBe is a digital space dedicated to transforming passive observation into genuine cognitive engagement. The platform brings together a structure learning environment for learners, automated insights for educators, and an instructional design explicitly built to ensure learners trust the process and feel confident in what they are learning. Discover the philosophy behind this transformation by watching our [Concept Video](https://youtu.be/6AYCVKDIeTs?si=uTpsOaHkDvGf53sQ).
+ViBe is a digital space dedicated to transforming passive observation into genuine cognitive engagement. The platform brings together a structured learning environment for learners, automated insights for educators, and an instructional design explicitly built to ensure learners trust the process and feel confident in what they are learning.
+
+{% include video-thumb.html id="6AYCVKDIeTs" title="ViBe — Concept Video" %}
 
 ---
 
@@ -29,7 +31,9 @@ While digital learning has solved the problem of access, completion rates for se
 
 ## **The Platform**
 
-Inspired by the ancient riddles of Betaal to King Vikramaditya—where every faltered answer demands a backward glance—ViBe acts as a digital scaffold anchored in an integrated, three-theory learning science framework. You can experience these features firsthand through our [Interactive Demo](https://youtu.be/8ytNdYlK-BU?si=tYHqwjnJjAQx85C9).
+Inspired by the ancient riddles of Betaal to King Vikramaditya—where every faltered answer demands a backward glance—ViBe acts as a digital scaffold anchored in an integrated, three-theory learning science framework.
+
+{% include video-thumb.html id="8ytNdYlK-BU" title="ViBe — Interactive Demo" %}
 
 **Micro-Learning**
 Long lectures are automatically segmented at conceptual breakpoints. By consolidating each concept before the next arrives, ViBe manages working memory, reduces extraneous cognitive load, and prevents learner overload, directly applying Sweller's Cognitive Load Theory.
@@ -47,7 +51,24 @@ Within this collaborative ecosystem, learners do not just consume content but ac
 
 ## **The Impact**
 
-Deployed nationally under the Ministry of Education’s Malaviya Mission Teacher Training Programme, ViBe has engaged over 3,500 learners for more than 23,000 verified watch hours. It has demonstrated a 50 percent increase in course completion rates and reduced operational costs by 60 percent, delivering verified skill acquisition at a population scale of approximately ₹7 per learner per hour.
+Deployed nationally under the Ministry of Education’s Malaviya Mission Teacher Training Programme.
+
+<div class="stat-row">
+  <div class="stat"><span class="stat-number">9,984</span><span class="stat-label">Unique Learners</span></div>
+  <div class="stat"><span class="stat-number">10,959</span><span class="stat-label">Active Enrollments</span></div>
+  <div class="stat"><span class="stat-number">39</span><span class="stat-label">Courses & Cohorts Live</span></div>
+  <div class="stat"><span class="stat-number">~35%</span><span class="stat-label">Completion Rate</span></div>
+</div>
+
+Industry norm for self-paced online courses: under 10%. ViBe: 3.5× that — verified, proctored, and delivered at marginal cost.
+
+---
+
+## **Learner Feedback**
+
+What does it feel like to learn on ViBe? Here is a glimpse from the platform.
+
+{% include video-thumb.html id="AWuA4b9dUpM" title="ViBe — Learner Feedback" %}
 
 ---
 
