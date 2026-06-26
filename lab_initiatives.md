@@ -55,6 +55,25 @@ This is not a regular webinar series. We move away from the traditional model of
 
 **The Objective:** To build a global bridge of practice where we learn, unlearn, and relearn together.
 
+### **From the Series**
+
+**Series One — Prof. Chris Dede, Harvard University**
+*"If AI Has All the Answers, Then What's the Question?"*
+
+The Global Speaker Series opened with a question — not an answer. Prof. Chris Dede from Harvard University set the tone for everything that followed: a conversation that refuses to treat AI as a solution looking for a problem. If a machine can answer anything, what does it mean to ask a good question? What remains distinctly, irreducibly human about the act of inquiry itself? These were the threads the opening session pulled on — and they are threads the series has kept returning to ever since.
+
+**Series Two — Prof. Ravi Kumar Majeti, University of Alabama**
+*Collaboration, Competition, and the Making of an Academic*
+
+Academia runs on two contradictory impulses: the drive to share knowledge openly, and the pressure to outpace your peers. Prof. Ravi Kumar Majeti from the University of Alabama brought this tension into the open — examining how the interplay between collaboration and competition shapes the growth of faculty and research professionals, and asking whether the incentive structures of modern academia are built to produce the best outcomes for the people inside them.
+
+**Series Three — Prof. Anil Kumar Challa, University of Alabama**
+*Reimagining Undergraduate Education Through Research*
+
+What happens when undergraduate students are not just taught research — but do it? Prof. Anil Kumar Challa from the University of Alabama made the case for a pedagogy that places real inquiry at the centre of undergraduate education — exploring how structured research engagement transforms not just what students know, but how they come to know it.
+
+---
+
 ### **Catch Up on the Conversation**
 
 Whether you want to revisit a specific insight or catch a session you missed, our archive of previous dialogues is open to all.
