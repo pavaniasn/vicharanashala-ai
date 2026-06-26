@@ -2,6 +2,8 @@
 layout: page
 title: Openings
 permalink: /openings/
+quote: "The beautiful thing about learning is that nobody can take it away from you."
+quote_author: "B.B. King"
 ---
 
 Whether you are a student looking to learn or gain research experience, a faculty member exploring collaboration, or a professional who wants to contribute — this is where you find your entry point into Vicharanashala.

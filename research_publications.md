@@ -2,6 +2,8 @@
 layout: page
 title: Research Publications
 permalink: /research/
+quote: "Research is formalized curiosity. It is poking and prying with a purpose."
+quote_author: "Zora Neale Hurston"
 ---
 
 A curated record of research from Vicharanashala — spanning the work of the Principal Investigator, core team members, research scholars, and collaborators. Our research sits at the intersection of learning design, educational technology, and higher education policy.

@@ -2,6 +2,8 @@
 layout: home
 title: Home
 permalink: /
+quote: "The purpose of education is to replace an empty mind with an open one."
+quote_author: "Malcolm Forbes"
 ---
 
 <section class="home-hero">
@@ -24,6 +26,17 @@ permalink: /
     </div>
   </div>
 </section>
+
+{% if page.quote %}
+<section class="home-quote-strip">
+  <div class="home-inner">
+    <blockquote class="page-quote page-quote-centered">
+      <p>{{ page.quote }}</p>
+      <cite>— {{ page.quote_author }}</cite>
+    </blockquote>
+  </div>
+</section>
+{% endif %}
 
 <section class="home-section hs-light" id="find-your-path">
   <div class="home-inner">

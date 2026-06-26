@@ -5,6 +5,8 @@ page_title: National Initiatives
 parent: Initiatives
 permalink: /national_initiatives/
 card_mode: generic
+quote: "Education is the most powerful weapon which you can use to change the world."
+quote_author: "Nelson Mandela"
 ---
 
 

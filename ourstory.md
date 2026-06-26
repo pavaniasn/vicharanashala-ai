@@ -2,7 +2,8 @@
 layout: default
 title: Our Story
 permalink: /ourstory/
-
+quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+quote_author: "Benjamin Franklin"
 ---
 
 <div class="story-intro">
@@ -13,6 +14,8 @@ permalink: /ourstory/
     <p class="story-lead">The name says it all. <em>Vichara</em> means thought, inquiry, reflection. <em>Shala</em> means a hall — a place of gathering. Vicharanashala: a house of thinking where education isn't just delivered, but designed, questioned, and rebuilt from the ground up.</p>
   </div>
 </div>
+
+{% include page-quote.html %}
 
 <div class="story-space">
   <p class="story-label"><i class="ph ph-map-pin"></i> The Space</p>

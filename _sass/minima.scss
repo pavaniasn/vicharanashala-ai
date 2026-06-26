@@ -800,6 +800,43 @@ table {
   }
 }
 
+// ── Page quote (epigraph) ──
+.page-quote {
+  border-left: 3px solid #e07020;
+  margin: 0 0 2rem;
+  padding: 0.25rem 0 0.25rem 1rem;
+  font-style: italic;
+
+  p {
+    margin: 0 0 0.25rem;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.65;
+  }
+
+  cite {
+    display: block;
+    font-size: 0.8rem;
+    font-style: normal;
+    color: #767676;
+  }
+}
+
+.home-quote-strip {
+  background: #f9f9f7;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #e2e2de;
+}
+
+.page-quote-centered {
+  border-left: none;
+  text-align: center;
+  padding: 0;
+
+  p { color: #555; }
+  cite { color: #767676; }
+}
+
 // ── Product card grid ──
 .product-grid {
   display: grid;

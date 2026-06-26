@@ -2,6 +2,8 @@
 layout: page
 title: Products
 permalink: /products/
+quote: "Any sufficiently advanced technology is indistinguishable from magic."
+quote_author: "Arthur C. Clarke"
 ---
 
 <div class="products-intro">

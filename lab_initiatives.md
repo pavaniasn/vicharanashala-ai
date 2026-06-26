@@ -5,6 +5,8 @@ page_title: Vicharanashala Lab Initiatives
 parent: Initiatives
 permalink: /lab_initiatives/
 card_mode: generic
+quote: "Alone we can do so little; together we can do so much."
+quote_author: "Helen Keller"
 ---
 
 VicharanaShala works at the intersection of pedagogy, technology, and reflective practice. Our initiatives are designed to support educators, students, and institutions through meaningful learning innovation.

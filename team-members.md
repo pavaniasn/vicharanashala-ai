@@ -2,6 +2,8 @@
 layout: default
 title: Team Members
 permalink: /team-members/
+quote: "Coming together is a beginning, staying together is progress, and working together is success."
+quote_author: "Henry Ford"
 ---
 
 <div class="team-intro">
@@ -9,6 +11,8 @@ permalink: /team-members/
   <h1 class="story-h">A small team.<br>An unreasonable output.</h1>
   <p class="team-intro-p">Vicharanashala runs programs and products at a scale most labs would need three times the people to manage. That's not an accident — it's a design choice. Everyone here wears many hats and takes ownership of whole problems, not just tasks.</p>
 </div>
+
+{% include page-quote.html %}
 
 <!-- PI featured card -->
 <div class="team-section">
