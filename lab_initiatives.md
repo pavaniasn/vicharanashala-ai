@@ -108,6 +108,20 @@ V-Talks bring together people from different walks of life. We invite profession
 
 **Vicharana in Action:** We pick general, yet profound, topics and explore them through the lens of active reflection.
 
+### **From the Series**
+
+**V-Talk One — Averell Spencer, Co-founder & CEO, Launch Girls | MIT & Harvard Alumna**
+*The Entrepreneurial Mindset*
+
+What does it take to build something from nothing — and what does that have to do with how students should be thinking about their education? Averell Spencer, co-founder and CEO of Launch Girls and an alumna of both MIT and Harvard, brought the lived reality of entrepreneurship into the room. Not as a success story to be admired from a distance, but as a mindset — a way of approaching problems, uncertainty, and growth that students can begin practising long before they ever start a company.
+
+**V-Talk Two — Dr. Shyam Raghunath Joshi**
+*How to Actually Learn*
+
+Everyone is told to study harder. Far fewer are ever taught how to actually learn. Dr. Shyam Raghunath Joshi turned the spotlight on something students interact with every day but rarely examine: the mechanics of learning itself. From retention to reflection, the session unpacked practical techniques that help learners become more deliberate, more effective, and ultimately more independent — the kind of session that students leave wanting to rethink how they have been approaching their own education entirely.
+
+---
+
 ### **Join the Conversation**
 
 Vicharanashala is a community-driven space, and we want every V-Talk to reflect the interests of the people it serves.
