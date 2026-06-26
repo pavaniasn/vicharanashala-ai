@@ -19,4 +19,4 @@ PyBe is currently in active development at the Vicharanashala Lab. More details 
 
 ---
 
-Watch this space.
+Watch this space. The source code is openly available on [GitHub ↗](https://github.com/vicharanashala/pybe){:target="_blank"}.

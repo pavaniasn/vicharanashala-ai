@@ -90,7 +90,10 @@ permalink: /products/
     <div class="product-card-icon-wrap"><i class="ph ph-code product-card-icon"></i></div>
     <div class="product-card-name">PyBe</div>
     <div class="product-card-desc">A case study oriented Python tutor that helps you talk to machines, in human language.</div>
-    <span class="product-card-tag">Coming Soon</span>
+    <div class="product-card-bottom">
+      <span class="product-card-tag">Coming Soon</span>
+      <a href="https://github.com/vicharanashala/pybe" target="_blank" rel="noopener" class="product-github-link"><i class="ph ph-github-logo"></i> GitHub</a>
+    </div>
   </div>
 
   <div class="product-card product-card-linked">
