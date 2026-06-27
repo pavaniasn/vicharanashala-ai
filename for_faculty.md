@@ -17,7 +17,7 @@ permalink: /for-faculty/
   <div class="audience-section-body">
     <h2>Faculty Development Programs</h2>
     <p>We run two nationally funded faculty development programs. <strong>GuruSetu</strong> reimagines ARPIT with self-paced, pedagogy-first content across nine thematic pillars — free and open to faculty across India. <strong>CBPAI</strong> builds AI literacy from the ground up, treating AI as a pedagogical partner, not just a tool.</p>
-    <a href="{{ site.baseurl }}/national_initiative/" class="audience-link">Explore GuruSetu & CBPAI →</a>
+    <a href="{{ site.baseurl }}/national_initiatives/" class="audience-link">Explore GuruSetu & CBPAI →</a>
   </div>
 </div>
 
