@@ -1354,6 +1354,39 @@ table {
   }
 }
 
+// Initiative individual page header
+.initiative-page-hero {
+  padding: 2.5rem 0 2rem;
+  border-bottom: 1px solid #e2e2de;
+  margin-bottom: 2rem;
+}
+.initiative-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #767676;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.2rem;
+}
+.initiative-back:hover { color: #1a1a1a; text-decoration: none; }
+.initiative-page-h {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #1a1a1a;
+  margin: 0.4rem 0 0.6rem;
+  line-height: 1.2;
+}
+.initiative-page-tag {
+  font-size: 1rem;
+  color: #767676;
+  margin: 0;
+  line-height: 1.6;
+}
+
 // Section band — dark ribbon heading for major sections within inner pages
 .section-band {
   background: #1a1a1a;

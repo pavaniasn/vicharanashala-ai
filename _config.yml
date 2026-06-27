@@ -9,6 +9,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug/
+  initiatives:
+    output: true
+    permalink: /initiatives/:slug/
 
 header_pages:
   - ourstory.md
