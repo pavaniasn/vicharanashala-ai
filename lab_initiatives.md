@@ -13,7 +13,7 @@ VicharanaShala works at the intersection of pedagogy, technology, and reflective
 
 ---
 
-## **Summership**
+<div class="section-band"><h2>Summership</h2></div>
 
 Summership is a structured, eight-week virtual internship program run by the Vicharanashala Lab, designed to answer a difficult question: can every student — regardless of which institution they attend — get access to a high-quality research internship at an IIT?
 
@@ -41,7 +41,7 @@ The program is affiliated with IIT Ropar and aligned with the lab's broader mand
 
 ---
 
-## **Global Speaker Series: A Dialogue Across Borders**
+<div class="section-band"><h2>Global Speaker Series: A Dialogue Across Borders</h2></div>
 
 While the fundamental theories of education—from Bloom's Taxonomy to Project-Based Learning—remain universal, their application is deeply personal. At Vicharanashala, we recognize that every educator interprets these frameworks differently, allowing them to take a unique shape in every classroom.
 
@@ -96,7 +96,7 @@ We believe that the most profound insights often come from the practitioners the
 
 ---
 
-## **V-Talks: Vicharana in Action**
+<div class="section-band"><h2>V-Talks: Vicharana in Action</h2></div>
 
 At the heart of our lab is the spirit of Vicharana—the act of deep reflection and inquiry. V-Talks (Vicharanashala Talks) are the living embodiment of this spirit. We believe that insightful conversations shouldn't be confined to the walls of academia.
 

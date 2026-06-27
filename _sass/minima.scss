@@ -1354,6 +1354,30 @@ table {
   }
 }
 
+// Section band — dark ribbon heading for major sections within inner pages
+.section-band {
+  background: #1a1a1a;
+  color: #f9f9f7;
+  padding: 1.3rem 1.8rem;
+  margin: 3rem 0 1.8rem;
+  border-radius: 6px;
+
+  h2 {
+    color: #f9f9f7;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.35;
+    margin: 0;
+  }
+  p {
+    color: #aaa;
+    font-size: 0.85rem;
+    margin: 0.4rem 0 0;
+    line-height: 1.5;
+  }
+}
+
 // Footer affiliation bar
 .footer-affiliation {
   display: flex;
