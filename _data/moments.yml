@@ -43,5 +43,5 @@
   caption: "At work in the lab"
   detail: "VERIFY — confirm occasion (Summership / workshop / guest session)"
   # VERIFY: Pavani to confirm what this session was
-  type: lab
+  type: lab-event
   date: "2025"

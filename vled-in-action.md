@@ -13,8 +13,8 @@ permalink: /vled-in-action/
 <div class="moments-filter">
   <button class="moments-filter-btn active" data-filter="all">All</button>
   <button class="moments-filter-btn" data-filter="visit">Visits</button>
-  <button class="moments-filter-btn" data-filter="conference">Conferences</button>
-  <button class="moments-filter-btn" data-filter="event">Events</button>
+  <button class="moments-filter-btn" data-filter="lab-event">Lab Events</button>
+  <button class="moments-filter-btn" data-filter="conference">Conferences &amp; Conclaves</button>
 </div>
 
 <div class="moments-grid">
@@ -24,7 +24,7 @@ permalink: /vled-in-action/
       <img src="{{ site.baseurl }}/assets/images/moments/{{ moment.image }}" alt="{{ moment.caption }}" class="moment-img" loading="lazy">
     </div>
     <div class="moment-body">
-      <span class="moment-tag moment-tag--{{ moment.type }}">{{ moment.type }}</span>
+      <span class="moment-tag moment-tag--{{ moment.type }}">{% if moment.type == 'visit' %}Visit{% elsif moment.type == 'lab-event' %}Lab Event{% elsif moment.type == 'conference' %}Conference &amp; Conclave{% else %}{{ moment.type }}{% endif %}</span>
       <p class="moment-caption">{{ moment.caption }}</p>
       <p class="moment-detail">{{ moment.detail }}</p>
       <p class="moment-date">{{ moment.date }}</p>

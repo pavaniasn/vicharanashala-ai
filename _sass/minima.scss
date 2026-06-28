@@ -1487,9 +1487,7 @@ table {
   margin-bottom: 0.6rem;
   &--visit      { background: #fef3e8; color: #b85a10; }
   &--conference { background: #e8f6f7; color: #2a8a90; }
-  &--conclave   { background: #f0ecf9; color: #6a3aaa; }
-  &--event      { background: #efefec; color: #555; }
-  &--lab        { background: #efefec; color: #555; }
+  &--lab-event  { background: #efefec; color: #555; }
 }
 .moment-caption {
   font-size: 0.95rem;
