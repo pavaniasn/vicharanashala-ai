@@ -3,7 +3,7 @@
 # image: filename inside assets/images/moments/
 # caption: short title for the moment
 # detail: one line — who was there or what happened
-# type: visit / conference / conclave / event / lab
+# type: visit / conference / lab-event
 # date: Month YYYY or just YYYY
 
 - image: sastra-visit-1.jpeg
@@ -45,3 +45,21 @@
   # VERIFY: Pavani to confirm what this session was
   type: lab-event
   date: "2025"
+
+- image: bodhan-conclave-1.jpeg
+  caption: "Bodhan AI Conclave — Expo Stall"
+  detail: "Demonstrating ViBe to a visitor at the VLED exhibition stall"
+  type: conference
+  date: "February 2026"
+
+- image: bodhan-conclave-2.jpeg
+  caption: "Bodhan AI Conclave — Expo Stall"
+  detail: "The full VLED stall — ViBe, GuruSetu, CBPAI, Vinternship, and more on display"
+  type: conference
+  date: "February 2026"
+
+- image: bodhan-conclave-3.jpeg
+  caption: "Bodhan AI Conclave — In conversation"
+  detail: "A visitor engages with the Vinternship and Coder's High programmes at the stall"
+  type: conference
+  date: "February 2026"
