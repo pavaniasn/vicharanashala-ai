@@ -19,11 +19,10 @@
   date: "2024"
 
 - image: intl-visitor-group.jpeg
-  caption: "International Visitor"
-  detail: "VERIFY — name and institution to be confirmed"
-  # VERIFY: Pavani to confirm visitor name and organisation
+  caption: "Visit from Prof. David H. Smith"
+  detail: "Virginia Tech (Department of Computer Science) — with the lab team"
   type: visit
-  date: "2024"
+  date: "December 2026"
 
 - image: harbola-visit.jpeg
   caption: "Visit from Prof. Manoj K. Harbola"
