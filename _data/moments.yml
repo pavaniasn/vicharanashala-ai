@@ -8,8 +8,7 @@
 
 - image: sastra-visit-1.jpeg
   caption: "Visit from SASTRA University"
-  detail: "VC Prof. S. Vaidhyasubramaniam and Dean (TLC) Prof. Narendran Prasad — with the lab team"
-  # VERIFY: confirm exact spelling of VC and Dean names before pushing
+  detail: "VC Prof. S. Vaidhyasubramaniam and Dean (TLC) Prof. Naren P.R — with the lab team"
   type: visit
   date: "2024"
 
@@ -34,8 +33,7 @@
 
 - image: harbola-visit.jpeg
   caption: "Visit from Prof. Manoj K. Harbola"
-  detail: "IIT VERIFY[Kanpur/Kharagpur] — collaboration on the GuruSetu project"
-  # VERIFY: confirm IIT Kanpur or IIT Kharagpur
+  detail: "IIT Kanpur — collaboration on the GuruSetu project"
   type: visit
   date: "2024"
 
