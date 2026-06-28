@@ -1473,6 +1473,43 @@ table {
 .moment-card:hover .moment-img {
   transform: scale(1.03);
 }
+.moment-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.moment-slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: none;
+  transition: none;
+}
+.moment-slide.active {
+  display: block;
+}
+.carousel-dots {
+  position: absolute;
+  bottom: 0.6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.4rem;
+  z-index: 2;
+}
+.carousel-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.45);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s;
+  &.active { background: #fff; }
+  &:hover { background: rgba(255,255,255,0.8); }
+}
 .moment-body {
   padding: 1rem 1.1rem 1.2rem;
 }
