@@ -56,3 +56,12 @@ permalink: /for-faculty/
     <a href="{{ site.baseurl }}/openings/" class="audience-link">Submit Your Interest →</a>
   </div>
 </div>
+
+<div class="audience-section">
+  <div class="audience-section-icon"><i class="ph ph-images"></i></div>
+  <div class="audience-section-body">
+    <h2>VLED in Action</h2>
+    <p>See the lab beyond the papers — guest researchers who've visited, conclaves and conferences we've shown up at, and the everyday work that happens here. A window into how the lab moves.</p>
+    <a href="{{ site.baseurl }}/vled-in-action/" class="audience-link">See VLED in Action →</a>
+  </div>
+</div>

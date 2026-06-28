@@ -135,27 +135,136 @@ a.pub-title:hover { color: #e07020; text-decoration: none; }
   margin: 0.25rem 0 0 0;
   line-height: 1.5;
 }
+.pub-status {
+  flex-shrink: 0;
+  min-width: 2.4rem;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.45rem;
+  border-radius: 2px;
+  white-space: nowrap;
+  align-self: flex-start;
+  margin-top: 0.15rem;
+}
+.pub-status--draft    { background: #efefec; color: #767676; }
+.pub-status--review   { background: #fef3e8; color: #b85a10; }
+.pub-status--accepted { background: #e8f6f7; color: #2a8a90; }
 </style>
 
 ---
 
 ## Working Papers & Reports
 
-- Standardizing Impact Metrics for Digital Professional Development Content
-- High-Signal, Low-Friction (HSLF) Framework
-- Vi-SlideS: A Question-Driven, AI-Assisted Teaching Support System
-- Vi-Sakha: The Intelligent Support Desk
-- Spandan: AI-Powered Real-Time Engagement Automation System
-- ReputationMatters: Modeling Accurate Peer Assessment
-- Designing AI-Enabled Media Content Libraries: A Qualitative Study of Scalable Digital Knowledge Infrastructures
-- Incentivising Learning using Health Points & Endorsement Networks in Large Scale Experiments
-- Taming the Deadline Surge: A Slot Booking Commitment Scheme for Scalable ViBe Learning Platforms
-- Ajrasakha Reviewer System
-- Ajrasakha Chat Engine System
-- AAS — Agent Assistance System
-- An Endorsement Network with Audit-Driven Accountability for Scalable Internship Evaluation
-- ViBe: Reimagining Digital Learning as Disciplined, AI-Verified Education
-- The Vinternship: A Four-Phase, Peer-Validated Framework for Scalable Internship
+<div class="pub-list">
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">ViBe: Reimagining Digital Learning as Disciplined, AI-Verified Education</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">The Vinternship: A Four-Phase, Peer-Validated Framework for Scalable Internship</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Standardizing Impact Metrics for Digital Professional Development Content</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">High-Signal, Low-Friction (HSLF) Framework</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Vi-SlideS: A Question-Driven, AI-Assisted Teaching Support System</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Spandan: AI-Powered Real-Time Engagement Automation System</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">ReputationMatters: Modeling Accurate Peer Assessment</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Designing AI-Enabled Media Content Libraries: A Qualitative Study of Scalable Digital Knowledge Infrastructures</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Incentivising Learning using Health Points &amp; Endorsement Networks in Large Scale Experiments</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Taming the Deadline Surge: A Slot Booking Commitment Scheme for Scalable ViBe Learning Platforms</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">An Endorsement Network with Audit-Driven Accountability for Scalable Internship Evaluation</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Ajrasakha Reviewer System</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Ajrasakha Chat Engine System</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">AAS — Agent Assistance System</span>
+    </div>
+  </div>
+
+  <div class="pub-item">
+    <span class="pub-status pub-status--draft">Draft</span>
+    <div class="pub-body">
+      <span class="pub-title">Vi-Sakha: The Intelligent Support Desk</span>
+    </div>
+  </div>
+
+</div>
 
 ---
 

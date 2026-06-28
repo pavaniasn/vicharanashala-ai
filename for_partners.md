@@ -17,7 +17,7 @@ permalink: /for-partners/
   <div class="audience-section-body">
     <h2>National Programs</h2>
     <p>We are a key partner in two Ministry of Education initiatives under the UGC Malaviya Mission Teacher Training Programme. <strong>GuruSetu</strong> reimagines faculty development at national scale — free, self-paced, and structured across nine thematic pillars. <strong>CBPAI</strong> builds AI literacy across disciplines with a pedagogy-first approach and an original benchmarking instrument for Indian higher education. Combined, they have reached <strong>3,500+ faculty</strong> across India, with <strong>600+ certified</strong>.</p>
-    <a href="{{ site.baseurl }}/national_initiative/" class="audience-link">Explore National Programs →</a>
+    <a href="{{ site.baseurl }}/national_initiatives/" class="audience-link">Explore National Programs →</a>
   </div>
 </div>
 
@@ -43,7 +43,7 @@ permalink: /for-partners/
   <div class="audience-section-icon"><i class="ph ph-wrench"></i></div>
   <div class="audience-section-body">
     <h2>Products</h2>
-    <p>Eight tools built in-house, each emerging from a specific research question. From AI-enabled asynchronous learning (ViBe) to internship management at national scale (Samagama + Yaksha) to real-time classroom engagement (Spandan). Deployed, piloted, and in active development.</p>
+    <p>Tools built in-house, each emerging from a specific research question. From AI-enabled asynchronous learning (ViBe) to internship management at national scale (Samagama + Yaksha) to real-time classroom engagement (Spandan). Deployed, piloted, and in active development.</p>
     <a href="{{ site.baseurl }}/products/" class="audience-link">Explore Products →</a>
   </div>
 </div>
@@ -54,5 +54,14 @@ permalink: /for-partners/
     <h2>Get in Touch</h2>
     <p>If you are interested in funding, partnering on a program, or exploring how Vicharanashala's work aligns with your institutional mandate, reach out to us directly.</p>
     <a href="{{ site.baseurl }}/contact/" class="audience-link">Contact the Lab →</a>
+  </div>
+</div>
+
+<div class="audience-section">
+  <div class="audience-section-icon"><i class="ph ph-images"></i></div>
+  <div class="audience-section-body">
+    <h2>VLED in Action</h2>
+    <p>From national conclaves to research collaborations and visiting scholars — a record of where the lab has shown up and who has come to see what we are building.</p>
+    <a href="{{ site.baseurl }}/vled-in-action/" class="audience-link">See VLED in Action →</a>
   </div>
 </div>
