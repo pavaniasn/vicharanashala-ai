@@ -79,27 +79,27 @@ $on-laptop:     860px !default;
 }
 
 .header-logo-iit {
-  height: 38px;
+  height: 28px;
   width: auto;
   display: block;
 }
 
 .header-logo-vled-pill {
   background: #1a1a1a;
-  border-radius: 8px;
-  padding: 5px 10px;
+  border-radius: 6px;
+  padding: 3px 8px;
 }
 
 .header-logo-vled {
-  height: 28px;
+  height: 20px;
   width: auto;
   display: block;
   mix-blend-mode: lighten;
 }
 
 @include media-query($on-palm) {
-  .header-logo-iit { height: 30px; }
-  .header-logo-vled { height: 22px; }
+  .header-logo-iit { height: 22px; }
+  .header-logo-vled { height: 16px; }
 }
 
 .site-title {
