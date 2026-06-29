@@ -156,6 +156,13 @@ cities.forEach(function(c) {
       <div class="tl-desc">A new course introducing AI through authentic, real-world agriculture datasets and practical applications.</div>
     </div>
 
+    <div class="tl-item">
+      <div class="tl-icon">🎒</div>
+      <div class="tl-date">May 2026</div>
+      <div class="tl-title">Summership Launches</div>
+      <div class="tl-desc">The lab's flagship summer internship programme launched with <strong>Samagama</strong> and <strong>Yaksha</strong> — bringing students into the work of education design hands-on.</div>
+    </div>
+
     <div class="tl-item tl-next">
       <div class="tl-icon tl-next-icon"><span class="tl-pulse-ring"></span>→</div>
       <div class="tl-date">Up Next</div>
