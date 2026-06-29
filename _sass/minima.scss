@@ -1546,6 +1546,72 @@ table {
   margin: 0;
 }
 
+// ── Individual product pages ──
+.product-page-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+.product-page-status {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $grey-color;
+  border: 1px solid $grey-color-light;
+  border-radius: 2px;
+  padding: 0.15rem 0.4rem;
+}
+.product-page-tagline {
+  font-style: italic;
+  color: $grey-color;
+  font-size: 0.95rem;
+  margin-bottom: 2.2rem;
+  line-height: 1.6;
+}
+.product-page-section {
+  margin-bottom: 2rem;
+  h2 {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $grey-color;
+    margin-bottom: 0.7rem;
+    border: none;
+    padding: 0;
+  }
+  p {
+    font-size: 0.97rem;
+    line-height: 1.82;
+    color: #444;
+    margin: 0;
+  }
+}
+.product-github-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 2.5rem;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid $grey-color-light;
+  border-radius: 6px;
+  background: #f9f9f7;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 0.88rem;
+  transition: border-color 0.18s, background 0.18s;
+  i { font-size: 1.3rem; color: #444; }
+  span { font-weight: 500; }
+  &:hover {
+    border-color: #aaa;
+    background: #efefec;
+    text-decoration: none;
+    color: #1a1a1a;
+  }
+}
+
 // Footer affiliation bar
 .footer-affiliation {
   display: flex;
