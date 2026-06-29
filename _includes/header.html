@@ -1,7 +1,14 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
 
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <div class="header-logos">
+      <a href="https://www.iitrpr.ac.in" target="_blank" rel="noopener noreferrer" class="header-logo-link">
+        <img src="{{ '/assets/images/iit-ropar-logo.png' | relative_url }}" alt="IIT Ropar" class="header-logo-iit">
+      </a>
+      <a href="{{ '/' | relative_url }}" class="header-logo-link header-logo-vled-pill">
+        <img src="{{ '/assets/images/vicharanashala-logo-dark.png' | relative_url }}" alt="Vicharanashala Lab" class="header-logo-vled">
+      </a>
+    </div>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
