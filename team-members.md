@@ -22,7 +22,7 @@ quote_author: "Henry Ford"
     <div class="team-pi-body">
       <div class="team-pi-name">Prof. Sudarshan Iyengar</div>
       <div class="team-pi-role">Principal Investigator &amp; Group Lead</div>
-      <p class="team-pi-bio">Educator and researcher whose NPTEL courses have reached 9,00,000+ students. Director of Annam.AI and founding faculty of the IIT Madras BS Programme.</p>
+      <p class="team-pi-bio">Associate Professor at IIT Ropar (CSE), Ph.D. from IISc. His NPTEL course on Social Networks has reached 9,00,000+ learners — one of the most-enrolled CS courses on the platform. Director of the AI Centre of Excellence at Annam.AI, IIT Ropar, and founding faculty of the IIT Madras Online BS Programme. His research sits at the intersection of social computing, collective intelligence, and crowdsourced knowledge — work that directly informs how Vicharanashala thinks about learning at scale.</p>
       <div class="team-tags">
         <span class="team-tag">Research Direction</span>
         <span class="team-tag">GuruSetu</span>

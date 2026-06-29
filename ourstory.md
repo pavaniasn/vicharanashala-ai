@@ -26,10 +26,7 @@ quote_author: "Benjamin Franklin"
       <p>The physical lab is a workspace where whiteboards fill faster than they can be erased, a small team asks large questions, and the gap between research and real classrooms is taken seriously. Ideas don't leave here until they've been tried somewhere.</p>
     </div>
     <div class="story-space-img">
-      <div class="story-space-placeholder">
-        <i class="ph ph-image"></i>
-        <span>Lab photo coming soon</span>
-      </div>
+      <img src="{{ site.baseurl }}/assets/images/moments/lab-session.jpeg" alt="The Vicharanashala lab — a working session in progress" class="story-space-photo">
     </div>
   </div>
 </div>
@@ -157,6 +154,13 @@ cities.forEach(function(c) {
       <div class="tl-date">March 2026</div>
       <div class="tl-title">AI with Agriculture Dataset</div>
       <div class="tl-desc">A new course introducing AI through authentic, real-world agriculture datasets and practical applications.</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-icon">🎒</div>
+      <div class="tl-date">May 2026</div>
+      <div class="tl-title">Summership Launches</div>
+      <div class="tl-desc">The lab's flagship summer internship programme launched with <strong>Samagama</strong> and <strong>Yaksha</strong> — bringing students into the work of education design hands-on.</div>
     </div>
 
     <div class="tl-item tl-next">
@@ -395,21 +399,13 @@ cities.forEach(function(c) {
 
 .story-space-img { border-radius: 6px; overflow: hidden; }
 
-.story-space-placeholder {
-  background: #efefec;
-  border: 1px solid #e2e2de;
+.story-space-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
   border-radius: 6px;
-  min-height: 220px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.6rem;
-  color: #767676;
-  font-size: 0.82rem;
 }
-
-.story-space-placeholder i { font-size: 2rem; }
 
 /* Timeline intro */
 .story-timeline-intro { margin-bottom: 0.5rem; }

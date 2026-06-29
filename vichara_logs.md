@@ -6,32 +6,37 @@ quote: "The unexamined life is not worth living."
 quote_author: "Socrates"
 ---
 
-**Vichara Logs** is a curated collection of thoughts, experiments, and documented practices centered around learning and inquiry. It moves from reflection (**Vi-Chintan**), to exploration (**Vi-Prayoga**), to structured documentation (**Vi-Reports**), capturing the full journey of thinking and doing.
+**Vichara Logs** is a curated collection of thoughts, experiments, and documented practices centred around learning and inquiry. It moves from reflection, to exploration, to structured documentation — capturing the full journey of thinking and doing.
 
 ---
 
-## Vi-Chintan
+<div class="initiative-grid">
 
-Short, reflective pieces that engage with current ideas, trends, and experiences shaping our world. Each article is intentionally written without the use of AI, preserving the authenticity of human thought and voice. These 500-word explorations aim to provoke thinking rather than conclude it.
+  <a href="{{ site.baseurl }}/logs/vi-chintan/" class="initiative-card">
+    <div class="initiative-card-icon"><i class="ph ph-pencil-simple"></i></div>
+    <div class="initiative-card-body">
+      <div class="initiative-card-title">Vi-Chintan</div>
+      <p class="initiative-card-desc">Short, reflective pieces on ideas, trends, and experiences shaping our world — each written entirely without AI. 500-word explorations that aim to provoke thinking rather than conclude it.</p>
+      <span class="initiative-card-link">Read Vi-Chintan →</span>
+    </div>
+  </a>
 
-**Read the articles here:**  [Vi-Chintan](https://vicharanashala.github.io/vled/){:target="_blank"}
+  <a href="{{ site.baseurl }}/logs/vi-prayoga/" class="initiative-card">
+    <div class="initiative-card-icon"><i class="ph ph-flask"></i></div>
+    <div class="initiative-card-body">
+      <div class="initiative-card-title">Vi-Prayoga</div>
+      <p class="initiative-card-desc">Teaching and learning explored through experiments, ideas, and evolving practice. Where theory meets classroom reality, and questions are as valuable as answers.</p>
+      <span class="initiative-card-link">Read Vi-Prayoga →</span>
+    </div>
+  </a>
 
----
+  <a href="{{ site.baseurl }}/logs/vi-reports/" class="initiative-card">
+    <div class="initiative-card-icon"><i class="ph ph-file-text"></i></div>
+    <div class="initiative-card-body">
+      <div class="initiative-card-title">Vi-Reports</div>
+      <p class="initiative-card-desc">Detailed 2–3 page accounts of our research, implementations, and lived experiences in educational settings — records of practice and resources for others building similar work.</p>
+      <span class="initiative-card-link">Read Vi-Reports →</span>
+    </div>
+  </a>
 
-## Vi-Prayoga
-
-A space dedicated to exploring teaching and learning through ideas, experiments, and evolving practices. These writings bring together insights on pedagogy, reflections for educators, and guidance for learners across contexts. It is where theory meets classroom reality, and questions are as valuable as answers.
-
-**Read the articles here:**  
-*Coming soon*
-
----
-
-## Vi-Reports
-
-Detailed accounts of our research, implementations, and lived experiences in educational settings. These 2–3 page reports document processes, outcomes, and reflections with clarity and depth. They serve as both records of practice and resources for others seeking to build or adapt similar work.
-
-**Read the articles here:**  
-*Coming soon*
-
----
+</div>

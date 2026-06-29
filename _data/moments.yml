@@ -1,0 +1,47 @@
+# VLED in Action — photo data file
+# To add a new photo: add a new entry below following the same format.
+# image: filename inside assets/images/moments/
+# caption: short title for the moment
+# detail: one line — who was there or what happened
+# type: visit / conference / lab-event
+# date: Month YYYY or just YYYY
+
+- image: sastra-visit-1.jpeg
+  caption: "Visit from SASTRA University"
+  detail: "VC Prof. S. Vaidhyasubramaniam and Dean (TLC) Prof. Naren P.R — with the lab team"
+  type: visit
+  date: "2024"
+
+- image: sastra-visit-2.jpeg
+  caption: "Visit from Mr. Mahesh, COO, Excel Soft"
+  detail: "Conversations on EdTech with our initial seed funder — Excel Soft"
+  type: visit
+  date: "September 2025"
+
+- image: intl-visitor-group.jpeg
+  caption: "Visit from Prof. David H. Smith"
+  detail: "Virginia Tech (Department of Computer Science) — with the lab team"
+  type: visit
+  date: "December 2026"
+
+- image: harbola-visit.jpeg
+  caption: "Visit from Prof. Manoj K. Harbola"
+  detail: "IIT Kanpur — collaboration on the GuruSetu project"
+  type: visit
+  date: "2024"
+
+- image: lab-session.jpeg
+  caption: "At work in the lab"
+  detail: "VERIFY — confirm occasion (Summership / workshop / guest session)"
+  # VERIFY: Pavani to confirm what this session was
+  type: lab-event
+  date: "2025"
+
+- caption: "Bodhan AI Conclave — Expo Stall"
+  detail: "VLED at the expo — ViBe, GuruSetu, Vinternship, and Coder's High on display"
+  type: conference
+  date: "February 2026"
+  gallery:
+    - bodhan-conclave-1.jpeg
+    - bodhan-conclave-2.jpeg
+    - bodhan-conclave-3.jpeg

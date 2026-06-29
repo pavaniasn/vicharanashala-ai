@@ -17,7 +17,7 @@ permalink: /for-faculty/
   <div class="audience-section-body">
     <h2>Faculty Development Programs</h2>
     <p>We run two nationally funded faculty development programs. <strong>GuruSetu</strong> reimagines ARPIT with self-paced, pedagogy-first content across nine thematic pillars — free and open to faculty across India. <strong>CBPAI</strong> builds AI literacy from the ground up, treating AI as a pedagogical partner, not just a tool.</p>
-    <a href="{{ site.baseurl }}/national_initiative/" class="audience-link">Explore GuruSetu & CBPAI →</a>
+    <a href="{{ site.baseurl }}/national_initiatives/" class="audience-link">Explore GuruSetu & CBPAI →</a>
   </div>
 </div>
 
@@ -54,5 +54,14 @@ permalink: /for-faculty/
     <h2>Collaborate or Join</h2>
     <p>We work with faculty who want to co-research, pilot our tools in their classrooms, or join the lab in a more formal capacity. If you are interested in any of these, submit your interest and someone from the team will get in touch.</p>
     <a href="{{ site.baseurl }}/openings/" class="audience-link">Submit Your Interest →</a>
+  </div>
+</div>
+
+<div class="audience-section">
+  <div class="audience-section-icon"><i class="ph ph-images"></i></div>
+  <div class="audience-section-body">
+    <h2>VLED in Action</h2>
+    <p>See the lab beyond the papers — guest researchers who've visited, conclaves and conferences we've shown up at, and the everyday work that happens here. A window into how the lab moves.</p>
+    <a href="{{ site.baseurl }}/vled-in-action/" class="audience-link">See VLED in Action →</a>
   </div>
 </div>

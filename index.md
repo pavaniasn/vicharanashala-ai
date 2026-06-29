@@ -16,7 +16,7 @@ quote_author: "Malcolm Forbes"
         <span class="hero-stat-lbl">Learners on ViBe &amp; counting</span>
       </div>
       <div class="hero-stat">
-        <span class="hero-stat-num">35+</span>
+        <span class="hero-stat-num">3,500+</span>
         <span class="hero-stat-lbl">Faculty Reached &amp; counting</span>
       </div>
       <div class="hero-stat">

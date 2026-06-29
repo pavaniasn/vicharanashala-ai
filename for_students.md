@@ -17,7 +17,7 @@ permalink: /for-students/
   <div class="audience-section-body">
     <h2>Internships</h2>
     <p><strong>Summership</strong> is our flagship virtual research internship — eight weeks, fully structured, and open to students from all institutions across India. AI-conducted screening removes the network gatekeeping that typically locks out students from Tier 2 and Tier 3 colleges. Over 8,400 students have registered since we launched.</p>
-    <a href="{{ site.baseurl }}/lab_initiatives/" class="audience-link">Learn about Summership →</a>
+    <a href="{{ site.baseurl }}/initiatives/summership/" class="audience-link">Learn about Summership →</a>
   </div>
 </div>
 
@@ -54,5 +54,14 @@ permalink: /for-students/
     <h2>Intern Positions</h2>
     <p>Beyond Summership, the lab occasionally has openings for pre-doc fellows and offline interns. If you are interested in working directly with the Vicharanashala team, submit your interest and we will reach out when a relevant position opens.</p>
     <a href="{{ site.baseurl }}/openings/" class="audience-link">See Open Positions →</a>
+  </div>
+</div>
+
+<div class="audience-section">
+  <div class="audience-section-icon"><i class="ph ph-images"></i></div>
+  <div class="audience-section-body">
+    <h2>VLED in Action</h2>
+    <p>Curious what the lab actually looks like? From guest visits to conference stalls to working sessions — see glimpses of the people and moments behind the work.</p>
+    <a href="{{ site.baseurl }}/vled-in-action/" class="audience-link">See VLED in Action →</a>
   </div>
 </div>

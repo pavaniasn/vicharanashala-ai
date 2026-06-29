@@ -14,7 +14,7 @@ Vicharanashala operates at the intersection of pedagogical research and national
 
 ---
 
-## **Gurusetu: A National Mission for Faculty Excellence**
+<div class="section-band"><h2>GuruSetu: A National Mission for Faculty Excellence</h2></div>
 
 Gurusetu is a flagship initiative of the Ministry of Education, Government of India (MoE / UGC-MMTTP), with three Indian Institutes of Technology serving as nodal centers: IIT Ropar, IIT Madras, and IIT Gandhinagar. Vicharanashala is a key partner in this project, which serves as a cornerstone for faculty development under the Malaviya Mission Teacher Training Programme.
 
@@ -40,7 +40,7 @@ Faculty members interested in the future of teaching can [explore the vision and
 
 ---
 
-## **Capacity Building Program in Artificial Intelligence**
+<div class="section-band"><h2>Capacity Building Program in Artificial Intelligence (CBPAI)</h2></div>
 
 Funded by the Ministry of Education, Government of India (MoE / UGC-MMTTP)
 
